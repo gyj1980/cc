@@ -24,15 +24,23 @@
       "filterable": 0,
       "ext": "https://8177.kstore.space/js/douban.js"
 	  },
- {
-      "key": "config",
-      "name": "配置┃中心",
-      "type": 3,
-      "api": "csp_Config",
-      "playerType": 2,
-	  "jar":"https://8177.kstore.space/w/PandaQ241016.jar"
-    },	
-	  
+ {"key":"csp_欧歌G",
+ "name":"4K高清┃配置",
+ "type":3,
+ "api":"csp_Configog",
+ "searchable":0,
+ "quickSearch": 0,
+ "filterable": 1,
+ "jar":"https://8177.kstore.space/w/config.jar;md5;2d68907e16b4a9809ca25071c739245c"},
+ 
+ {"key":"配置中心",
+ "name":"通用┃配置",
+ "type":3,
+ "api":"csp_Config",
+ "searchable":0,
+ "changeable":0,
+ "style":{"type":"rect","ratio":1.597}
+ },
 {
 "key": "人人",
 "name": "人人|T爽剧",
