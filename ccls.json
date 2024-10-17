@@ -24,6 +24,14 @@
       "filterable": 0,
       "ext": "https://8177.kstore.space/js/douban.js"
 	  },
+ {
+      "key": "config",
+      "name": "配置┃中心",
+      "type": 3,
+      "api": "csp_Config",
+      "playerType": 2,
+	  "jar":"https://codeberg.org/gyj07/ccls/raw/branch/main/PandaQ240724.jar"
+    },	
 	  
 {
 "key": "人人",
