@@ -24,7 +24,22 @@
       "filterable": 0,
       "ext": "https://8177.kstore.space/js/douban.js"
 	  },
- 
+{
+"key": "私人",
+"name": "私人|T爽剧",
+"type": 3,
+"api": "csp_XBPQ",
+"ext":{
+"线路数组":"module-tab-item tab-item\"&&</div>", 
+			          
+"线路标题":"<span>&&</small>[替换:</span><small>>>共]+集",
+			    					
+"分类url":"https://www.siren93.com/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+
+"分类": "电影$1#剧集$2#动漫$4#综艺$3"
+					
+}
+},	
 {
 "key": "人人",
 "name": "人人|T爽剧",
