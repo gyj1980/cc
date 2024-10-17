@@ -49,6 +49,36 @@
 },
 
 {
+"key": "来看",
+"name": "来看|T爽剧",
+"type": 3,
+"api": "csp_XBPQ",
+"ext":{
+
+"数组":"<div class=\"public-list-box public-pic-b [swiper]\">&&</div>",
+		 
+"标题":"title=\"&&\"",
+		 
+"副标题":"潺潺流水",
+		 
+"图片":"data-src=\"&&\"",
+		 
+"链接":"href=\"&&\"",
+		 
+"线路数组":"swiper-slide\">&&</a>", 
+			          
+"线路标题":"</i>&nbsp;&&<span",
+
+"简介":"class=\"text cor3\">&&</div>",
+			    					
+"分类url":"https://lkvod.me/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+
+"分类": "电影$1#剧集$2#动漫$4#综艺$3"
+					
+}
+},
+
+{
 "key": "cuofox",
 "name": "茶杯狐|T爽剧",
 "type": 3,
@@ -57,14 +87,27 @@
 "线路数组":"module-tab-item tab-item\"&&</div>", 
 			          
 "线路标题":"<span>&&</small>[替换:</span><small>>>共]+集",
-			        
-
-			        
- 
-					
+			    					
 "分类url":"https://www.cuofox100.com/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
 
 "分类": "电影$1#剧集$2#动漫$4#综艺$3"
+					
+}
+},	
+
+{
+"key": "libvio",
+"name": "libvio|T爽剧",
+"type": 3,
+"api": "csp_XBPQ",
+"ext":{
+"线路数组":"</span><h3&&</div>", 
+			          
+"线路标题":">&&</h3",
+//网址失效问题：请发送至help@libvio.com系统会自动回复最新网址！			    					
+"分类url":"https://libvio.link/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+
+"分类": "电影$1#剧集$2#动漫$4#日韩剧$15#欧美剧$16"
 					
 }
 },	
