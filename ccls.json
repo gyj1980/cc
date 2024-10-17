@@ -32,7 +32,7 @@
 "api": "csp_XBPQ",
 "ext":{
 			    					
-"分类url":"https://v.aikanbot.com/hot/{cateId}-p-{catePg}.html",
+"分类url":"https://v.aikanbot.com/hot/{cateId}-{catePg}.html",
 
 "分类": "电影$index-movie-热门#剧集$index-tv-热门"
 					
