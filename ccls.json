@@ -37,7 +37,22 @@
 "分类": "电影$20#剧集$37#动漫$43#综艺$45#B站$47#体育$52"
 					
 }
-},	
+},
+{
+"key": "泥巴",
+"name": "泥巴|T爽剧",
+"type": 3,
+"api": "csp_XBPQ",
+"ext":{
+			    					
+"分类url":"https://nbys.app/genre/{cateId}-{area}-{year}-{catePg}/by/{by}.html",
+
+"分类": "电影$1#剧集$2#动漫$30#综艺$29",
+
+
+"排序":"周人气排序$hits_week#更新排序$time#月人气排序$hits_month"				
+}
+},
 {
 "key": "私人",
 "name": "私人|T爽剧",
