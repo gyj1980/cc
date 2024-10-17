@@ -102,7 +102,11 @@
 "api": "csp_XBPQ",
 "ext":{
 "线路数组":"<div class=\"stui-vodlist__head\">&&</div>", 
-			          
+//LIBVIO发布地址请复制保存：
+//lib.ifabu.vip
+//www.libvio.app
+//www.libfabu.com
+//您也可以发送邮件获取最新地址哦！			          
 "线路标题":">&&</h3",
 //网址失效问题：请发送至help@libvio.com系统会自动回复最新网址！			    					
 "分类url":"https://libvio.link/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
