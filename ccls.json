@@ -24,6 +24,23 @@
       "filterable": 0,
       "ext": "https://8177.kstore.space/js/douban.js"
 	  },
+	  
+{
+"key": "电影天堂",
+"name": "电影天堂|T爽剧",
+"type": 3,
+"api": "csp_XBPQ",
+"ext":{
+"线路数组":"<div class=\"mox\">&&</div>", 
+			          
+"线路标题":"<span>&&</span>",
+			    					
+"分类url":"http://www.k1k.cc/&&/list/---{year}-{cateId}-{by}-{catePg}",
+
+"分类": "电影$movie#剧集$ju#动漫$dm#综艺$zy"
+					
+}
+},	
 {
 "key": "私人",
 "name": "私人|T爽剧",
