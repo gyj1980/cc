@@ -43,16 +43,16 @@
 },
 
 {
-"key": "北川",
-"name": "北川|T爽剧",
+"key": "waip",
+"name": "歪片星球|T爽剧",
 "type": 3,
 "api": "csp_XBPQ",
 "ext":{
-"线路数组":"module-tab-item tab-item\"&&</div>[不包含:没用视频]", 
+"线路数组":"module-tab-item tab-item\"&&</div>", 
 
 "线路标题":"<span>&&</small>[替换:</span><small>>>共]+集",
 
-"分类url":"http://www.bcys.xyz/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}/",
+"分类url":"https://waipian30.com/show-{cateId}-{area}-{by}-{class}-----{catePg}---{year}/",
 
 "分类": "电影$1#剧集$2#动漫$4#综艺$3"
 }
