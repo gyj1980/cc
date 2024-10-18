@@ -21,6 +21,22 @@
       "ext": "https://8177.kstore.space/js/douban.js"
 	  },
 	
+
+{
+"key": "8点",
+"name": "8点|T爽剧",
+"type": 3,
+"api": "csp_XBPQ",
+"ext":{
+
+"分类url":"https://www.badiankanying.com/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+
+"分类": "电影$21#剧集$22#动漫$36#综艺$42"
+}
+},
+
+
+
 {
 "key": "猎手",
 "name": "猎手|T爽剧",
