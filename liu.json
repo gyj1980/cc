@@ -259,7 +259,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext":{"homeurl": "https://nbys.app/genre/{cateId}-{area}-{year}-{catePg}/by/{by}.html",
+      "ext":{"homeUrl": "https://nbys.app/genre/{cateId}-{area}-{year}-{catePg}/by/{by}.html",
 "playlist":{
 		
 		"vod_play_url_title": ["<span>", "</small>"],
