@@ -16,7 +16,7 @@
 
 {
       "key": "kim",
-      "name": "kim",
+      "name": "kimvod|T爽剧",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -24,7 +24,7 @@
       "filterable": 0,
       "ext":{"分类url":
 "https://kimivod.com/vod/show/id/{cateId}/page/{catePg}/year/{year}.html",
-"分类": "电影$1#剧集$2#动漫$4#综艺$3"}   },
+"分类": "电影$2#剧集$1#动漫$3#综艺$4"}   },
 
 {
           "key": "youtu",
