@@ -243,10 +243,9 @@
       "api": "csp_XBPQ",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
+      "filterable": 1,
       "ext":{"分类url":"https://nbys.app/genre/{cateId}-{area}-{year}-{catePg}/by/{by}.html",
-"分类": "电影$1#剧集$2#动漫$30#综艺$29"}"
-    },
+"分类": "电影$1#剧集$2#动漫$30#综艺$29"}},
     
     {
       "key": "nibgha",
