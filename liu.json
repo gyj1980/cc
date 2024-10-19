@@ -264,7 +264,7 @@
 		
 		"vod_play_url_title": ["<span>", "</small>"],
 		
-		"vod_play_from": ["module-tab-item tab-item\","</div>"	]
+		"vod_play_from": ["module-tab-item tab-item\"","</div>"	]
 	}}
     },  
     {
