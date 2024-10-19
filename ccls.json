@@ -25,7 +25,7 @@
       "ext":{
 "线路数组":"<span class=\"max\">&&</span>", 
 
-    "线路标题":"&&",
+    "线路标题":"&&[替换:線>>线]",
 
 "分类url":
 "https://kimivod.com/vod/show/id/{cateId}/page/{catePg}/year/{year}.html",
