@@ -15,6 +15,18 @@
     	  },
 
 
+{
+          "key": "youtu",
+          "name": "优兔|T爽剧",
+          "type": 3,
+          "api": "csp_XBPQ",
+          "ext": {
+            "线路数组": "#ewave-playlist&&</li>",
+            "线路标题": ">&&<em>",
+            "分类url": "https://www.badiankanying.com/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+            "分类": "电影$21#剧集$20#动漫$36#综艺$42"
+          }
+        },
 
 {
 "key": "麻花",
