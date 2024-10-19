@@ -262,13 +262,9 @@
       "ext":{"homeurl": "https://nbys.app/genre/{cateId}-{area}-{year}-{catePg}/by/{by}.html",
 "playlist":{
 		
-		"vod_play_url_title": [".html\">", "<"],
+		"vod_play_url_title": ["<span>", "</small>"],
 		
-		"vod_play_from": [ 
-			
-			["<h3>播放线路4</h3>", "播放线路4(别名)"],	
-			"迅雷云盘", "百度网盘", ["DP播放"] , "播放线路3", "CK播放"
-		]
+		"vod_play_from": ["module-tab-item tab-item\","</div>"	]
 	}}
     },  
     {
