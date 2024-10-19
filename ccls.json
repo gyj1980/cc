@@ -123,8 +123,11 @@
     			    					
     "分类url":"https://nbys.app/genre/{cateId}-{area}-{year}-{catePg}/by/{by}.html",
     
-    "分类": "电影$1#剧集$2#动漫$30#综艺$29",
-    
+"分类": "电影$1#剧集$2#动漫$30#综艺$29",
+
+"线路数组":"stui-pannel clearfix\">&&</div>", 
+
+"线路标题":">&&</h4>",
     
     "排序":"周人气排序$hits_week#更新排序$time#月人气排序$hits_month"				
     }
