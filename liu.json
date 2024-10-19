@@ -236,17 +236,21 @@
       "filterable": 0,
       "ext": " https://www.libvio.me/type/{cateId}-{catePg}.html"
     },
-    {
-      "key": "niba",
-      "name": "泥巴(XBPQ)",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext":{"分类url":"https://nbys.app/genre/{cateId}-{area}-{year}-{catePg}/by/{by}.html",
-"分类": "电影$1#剧集$2#动漫$30#综艺$29"}},
-    
+        {
+    "key": "泥巴",
+    "name": "泥巴|T爽剧",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "ext":{
+
+    "分类url":"https://nbys.app/genre/{cateId}-{area}-{year}-{catePg}/by/{by}.html",
+
+    "分类": "电影$1#剧集$2#动漫$30#综艺$29",
+
+
+    "排序":"周人气排序$hits_week#更新排序$time#月人气排序$hits_month"                                
+    }
+    },
     {
       "key": "nibgha",
       "name": "泥巴(XBiu)",
