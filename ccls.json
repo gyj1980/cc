@@ -20,7 +20,8 @@
     "type": 3,
     "api": "csp_XBPQ",
     "ext":{"播放数组": "<ul class=\"row ewave-playlist-sort-content\">&&</ul> ",
-    
+    "播放标题": ">&&</a>",
+           "播放列表": "<li&&</li>",
             "线路数组": "#ewave-playlist&&</li>",
            "线路标题": ">&&",
 
