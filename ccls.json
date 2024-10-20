@@ -21,7 +21,7 @@
     "type": 3,
     "api": "csp_XBPQ",
     "ext":{
-            "线路数组": "#ewave-playlist-&&</li>",
+            "线路数组": "#ewave-playlist&&</li>",
            "线路标题": ">&&",
 
     "分类url":"https://www.whchzz.com/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
