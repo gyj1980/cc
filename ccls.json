@@ -1,4 +1,4 @@
-{
+2{
   "spider": "https://gitee.com/gyjune/jar/raw/master/HeChengChaXiu.jar",
   "wallpaper": "http://我不是.肥猫.love:63/ppic/feimao.php",
   "warningText": "荷城茶秀接口完全免费，切勿付费购买！",
@@ -20,7 +20,8 @@
     "name": "番茄|T爽剧",
     "type": 3,
     "api": "csp_XBPQ",
-    "ext":{
+    "ext":{"线路二次截取": "<ul class=\"swiper-wrapper clearfix\"&&</ul>",
+    
             "线路数组": "#ewave-playlist&&</li>",
            "线路标题": ">&&",
 
