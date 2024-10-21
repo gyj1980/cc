@@ -21,11 +21,13 @@
           "type": 3,
           "api": "csp_XBPQ",
           "ext": {
-           "线路数组": "module-tab-item tab-item\"&&</div>",
-           "线路标题": "<span>&&</small>[替换:</span><small>>>共]+集",
+           "线路数组": "<li class=\"fed-drop-btns fed-padding fed-col-xs3 fed-col-md2\">&&</li>",
+           "线路标题": ">&&</a>",
             "简介": "module-info-introduction-content\"><p>&&</p>",
              "分类url":"https://www.92122.com/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
-"分类": "电影$1#剧集$2#动漫$4#综艺$3"
+"分类数组": "fed-col-sm2&&</li>",
+                "分类标题": ">&&</a>",
+                "分类ID": "href=\"/vodtype/&&.html\""
 
 }
 },
