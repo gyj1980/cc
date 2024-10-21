@@ -24,7 +24,7 @@
            "线路数组": "可可影视提供</span>&&</div>",
            "线路标题": ">&&</span>",
 
-            "简介": "<p>&&</p>",
+            "简介": " <div class=\"detail-desc\">&&</div>",
              "分类url":"https://www.dushe02.com/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
 
                 "分类数组": "swiper-slide nav-swiper-slide&&</div>",
