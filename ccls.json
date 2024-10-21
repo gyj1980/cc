@@ -16,6 +16,28 @@
 
 
 {
+          "key": "酷奇",
+          "name": "酷奇|T爽剧",
+          "type": 3,
+          "api": "csp_XBPQ",
+          "ext": {
+           "线路标题": "潺潺流水",
+          "分类url":
+"https://www.kuqimv.com/play/{cateId}_{by}_{catePg}.html",
+
+"分类数组": "<li>&&</li>",
+                "分类标题": ">&&</a>",
+                "分类ID": "href=\"/play/&&.html\""
+
+
+          }
+        },
+
+
+
+
+
+{
           "key": "92122",
           "name": "92122|T爽剧",
           "type": 3,
