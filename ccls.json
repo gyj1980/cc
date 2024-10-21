@@ -27,8 +27,8 @@
           "分类url":
 "http://cageyy.cc/vodshow/id/{cateId}/page/{catePg}/year/{year}.html",
 
-"分类数组": "hl-nav-item hl-slide-swiper&&</li>",
-                "分类标题": ">&&</a>",
+"分类数组": "<li class=\"hl-menus-item\">&&</li>",
+                "分类标题": "<span>&&</span>",
                 "分类ID": "href=\"/vodtype/&&.html\""
 
 
