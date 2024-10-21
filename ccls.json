@@ -25,7 +25,7 @@
            "线路数组": "<li class=\"fed-drop-btns fed-padding fed-col-xs3 fed-col-md2\">&&</li>",
            "线路标题": ">&&</a>",
             "简介": "module-info-introduction-content\"><p>&&</p>",
-             "分类url":"https://www.92122.com/vodshow/{cateId}-{area}-{by}------{catePg}---.html",
+             "分类url":"https://www.92122.com/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
 "分类数组": "fed-col-sm2&&</li>",
                 "分类标题": ">&&</a>",
                 "分类ID": "href=\"/vodtype/&&/\""
@@ -42,7 +42,7 @@
            "线路数组": "stui-pannel__head clearfix\">&&</div>",
            "线路标题": ">&&</h3>",
             "简介": "stui-content__desc col-pd clearfix\">&&</div>",
-             "分类url":"https://22.91qkw.com/show{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+             "分类url":"https://22.91qkw.com/show{cateId}-{area}-{by}------{catePg}---.html",
 "分类": "电影$1#剧集$2#动漫$4#综艺$3"
 
 }
