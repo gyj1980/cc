@@ -15,6 +15,23 @@
     	  },
 
 
+
+{
+          "key": "凯奇",
+          "name": "凯奇|T爽剧",
+          "type": 3,
+          "api": "csp_XBPQ",
+          "ext": {
+           "线路数组": "可可影视提供</span>&&</div>",
+           "线路标题": ">&&</span>",
+"导演":"导演:</div>&&</div>",
+"演员":"演员:</div>&&</div>",
+            "简介": " <div class=\"detail-desc\">&&</div>",
+             "分类url":"https://www.dushe02.com/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+
+
+
+
 {
           "key": "dushe",
           "name": "毒舌|T爽剧",
@@ -28,9 +45,9 @@
             "简介": " <div class=\"detail-desc\">&&</div>",
              "分类url":"https://www.dushe02.com/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
 
-                "分类数组": "swiper-slide nav-swiper-slide&&</div>",
-                "分类标题": ">&&</span>",
-                "分类ID": "href=\"/channel/&&.html\""
+                "分类数组": "hl-nav-item hl-slide-swiper&&</li>",
+                "分类标题": ">&&</a>",
+                "分类ID": "href=\"/vodtype/&&.html\""
 
 
           }
