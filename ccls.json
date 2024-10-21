@@ -27,9 +27,9 @@
             "简介": "剧情：</span>&&</div>",
              "分类url":"https://www.dushe02.com/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
 
-                "分类数组": "<li class=\"grid-item\">&&</li>",
-                "分类标题": ">&&</a>",
-                "分类ID": "href=\"/v/&&.html\""
+                "分类数组": "swiper-slide nav-swiper-slide&&</div>",
+                "分类标题": ">&&</span>",
+                "分类ID": "href=\"/channel/&&.html\""
 
 
           }
