@@ -42,7 +42,7 @@
            "线路数组": "stui-pannel__head clearfix\">&&</div>",
            "线路标题": ">&&</h3>",
             "简介": "stui-content__desc col-pd clearfix\">&&</div>",
-             "分类url":"https://22.91qkw.com/show{cateId}-{area}-{by}------{catePg}---.html",
+             "分类url":"https://22.91qkw.com/show/{cateId}-{area}-{by}------{catePg}---.html",
 "分类": "电影$1#剧集$2#动漫$4#综艺$3"
 
 }
