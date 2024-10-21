@@ -49,7 +49,7 @@
             "简介": " <div class=\"detail-desc\">&&</div>",
              "分类url":"https://www.dushe02.com/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
 
-                "分类数组": "hl-nav-item hl-slide-swiper&&</li>",
+                "分类数组": "<li class=\"menu-item\ ">&&</li>",
                 "分类标题": ">&&</a>",
                 "分类ID": "href=\"/vodtype/&&.html\""
 
