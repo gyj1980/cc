@@ -21,6 +21,12 @@
           "type": 3,
           "api": "csp_XBPQ",
           "ext": {
+"数组":"<li>&&</li>",
+"标题":"title=\"&&\"",
+"链接":"href=\"&&\"",
+"图片":"img src=\"&&\"",
+
+
              "分类url":
 "https://www.kuqimv.com/play/{cateId}_{by}_{catePg}.html",
 
