@@ -23,7 +23,7 @@
           "ext": {
            "线路标题": "潺潺流水",
           "分类url":
-"https://www.kuqimv.com/play/{cateId}_{by}_{catePg}.html",
+"https://www.kuqimv.com/play/{cateId}_{catePg}.html",
 
 "分类数组": "<li>&&</li>",
                 "分类标题": ">&&</a>",
