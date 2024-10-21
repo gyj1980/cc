@@ -24,9 +24,16 @@
           "ext": {
            "线路数组": "hl-from-btn hl-text-muted\"&&</a>",
            "线路标题": "&nbsp;&&</span>",
-             "分类url":"https://www.dushe02.com/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+          "分类url":
+"https://kimivod.com/vod/show/id/{cateId}/page/{catePg}/year/{year}.html",
+
+"分类数组": "hl-nav-item hl-slide-swiper&&</li>",
+                "分类标题": ">&&</a>",
+                "分类ID": "href=\"/vodtype/&&.html\""
 
 
+          }
+        },
 
 
 {
