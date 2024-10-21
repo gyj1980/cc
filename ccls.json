@@ -21,6 +21,7 @@
           "type": 3,
           "api": "csp_XBPQ",
           "ext": {
+"二次截取":"<ul class=\"fed-pops-list fed-font-size fed-back-whits fed-part-rows\">&&</ul>",
            "线路数组": "<li class=\"fed-drop-btns fed-padding fed-col-xs3 fed-col-md2\">&&</li>",
            "线路标题": ">&&</a>",
             "简介": "module-info-introduction-content\"><p>&&</p>",
