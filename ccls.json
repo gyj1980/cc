@@ -23,7 +23,11 @@
           "type": 3,
           "api": "csp_XBPQ",
           "ext": {
-
+"数组": "<div class=\"card-item\">&&</div>",
+            "副标题": "top\">&&</div>",
+            "图片": "srcset=\"&&\"",
+            "标题": "alt=\"&&\"",
+            "链接": "href=\"&&\"",
            
              "分类url":"https://m.cfkj86.com/vod/show/id/{cateId}/sort/{by}/sortBy/1/pageNum/{catePg}/type/{class}/year/{year}/area/{area}",
 "分类": "电影$1#剧集$2#动漫$4#综艺$3"
