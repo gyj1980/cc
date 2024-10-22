@@ -17,6 +17,21 @@
 
 
 
+{
+          "key": "金牌",
+          "name": "金牌|T爽剧",
+          "type": 3,
+          "api": "csp_XBPQ",
+          "ext": {
+
+           
+             "分类url":"https://m.cfkj86.com/vod/show/id/{cateId}/sort/{by}/sortBy/1/pageNum/{catePg}/type/{class}/year/{year}/area/{area}
+",
+"分类": "电影$1#剧集$2#动漫$4#综艺$3"
+}
+},
+
+
 
 
 {
