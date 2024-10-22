@@ -24,7 +24,7 @@
           "api": "csp_XBPQ",
           "ext": {
 "数组": "<div class=\"hover-card__VideoInfo-sc-fd310788-3 fvQmLO video-info\">&&</div>",
-            "副标题": "top\">&&</div>",
+            "副标题": "<div class=\"bottom\"><div>&&</div>",
             "图片": "src=\"&&\"",
             "标题": "title\"><span>&&</span>",
             "链接": "href=\"&&\"",
