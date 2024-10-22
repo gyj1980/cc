@@ -23,10 +23,10 @@
           "type": 3,
           "api": "csp_XBPQ",
           "ext": {
- "数组": "<div class=\"hover-card__Content-sc-fd310788-0 hRdUxR\">&&</div>",
+ "数组": "<div class=\"hover-card__Content-sc-fd310788-0 hRdUxR\">&&</div></div></a></div></div>",
             "副标题": "<div class=\"bottom\"><div>&&</div>",
-            "图片": "src=\"&&\"",
-            "标题": "title\"><span>&&</span>",
+            "图片": "srcset=\"&&\"",
+            "标题": "<span>&&</span>",
             "链接": "href=\"&&\"",
            
              "分类url":"https://m.cfkj86.com/vod/show/id/{cateId}/sort/{by}/sortBy/1/pageNum/{catePg}/type/{class}/year/{year}/area/{area}",
