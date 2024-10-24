@@ -17,6 +17,49 @@
 
 
 
+
+
+
+
+{
+        
+          "key": "天龙",
+          "name": "天龙|T爽剧",
+          "type": 3,
+          "api": "csp_XBPQ",
+          "ext": {
+           "线路数组": "module-tab-item tab-item\"&&</div>",
+           "线路标题": "<span>&&</small>[替换:</span><small>>>共]+集",
+
+            "简介": "剧情：</span>&&</div>",
+            "分类url":"https://m.82mao.com/List/{cateId}-{area}--{class}-----{catePg}---{year}.html",
+
+                "分类数组": "<li class=\"grid-item\">&&</li>",
+                "分类标题": ">&&</a>",
+                "分类ID": "href=\"/v/&&.html\""
+
+
+          }
+        }",
+          "name": "电影先生|T爽剧",
+          "type": 3,
+          "api": "csp_XBPQ",
+          "ext": {
+           "线路数组": "module-tab-item tab-item\"&&</div>",
+           "线路标题": "<span>&&</small>[替换:</span><small>>>共]+集",
+
+            "简介": "剧情：</span>&&</div>",
+            "分类url":"https://dianyi.ng/pianku-{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+
+                "分类数组": "<li class=\"grid-item\">&&</li>",
+                "分类标题": ">&&</a>",
+                "分类ID": "href=\"/v/&&.html\""
+
+
+          }
+        },
+
+
 {
           "key": "金牌",
           "name": "金牌|T爽剧",
