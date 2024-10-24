@@ -29,7 +29,7 @@
            "线路标题": "</i>&&</font>",
 
             "简介": "<div class=\"detail-intro\">&&</div>",
-  "分类url":"https://m.82mao.com/List/{cateId}-{area}-------{catePg}---{year}.html",
+  "分类url":"https://m.82mao.com/List1/{cateId}.html",
 
                 "分类": "电影频道$17#电视剧场$18#综艺小品$20#短剧$53#动漫$48"
                
