@@ -34,9 +34,9 @@
             "简介": "剧情：</span>&&</div>",
             "分类url":"https://m.82mao.com/List/{cateId}-{area}--{class}-----{catePg}---{year}.html",
 
-                "分类数组": "<li class=\"grid-item\">&&</li>",
+                "分类数组": "<li&&</li>",
                 "分类标题": ">&&</a>",
-                "分类ID": "href=\"/v/&&.html\""
+                "分类ID": "href=\"/list1/&&.html\""
 
 
           }
