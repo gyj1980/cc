@@ -43,6 +43,9 @@
 
 
 {
+
+
+          "key": "xs",
           "name": "电影先生|T爽剧",
           "type": 3,
           "api": "csp_XBPQ",
