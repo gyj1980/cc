@@ -20,7 +20,7 @@
 
 {
 
-          "key": "天龙影院",
+          "key": "天龙影院1",
           "name": "天龙|T爽剧",
           "type": 3,
           "api": "csp_XBPQ",
@@ -29,7 +29,7 @@
            "线路标题": "</i>&&</font>",
 
             "简介": "<div class=\"detail-intro\">&&</div>",
-            "分类url":"https://m.82mao.com/List/{cateId}-{area}--{class}-----{catePg}---{year}.html",
+            "分类url":"https://m.82mao.com/List/{cateId}-{area}--{class}-----{catePg}---{year}.html；；ak",
 
                 "分类": "电影频道$17#电视剧场$18#综艺小品$20#短剧$53#动漫$48"
                
