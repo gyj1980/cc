@@ -36,7 +36,7 @@
 "线路标题": "</i>&&</font>",
 "播放数组": "<ul&&</ul>",
 "播放列表": "<li>&&</li>",
-"播放标题": ">&&</a>",
+"播放标题": "title=*>&&</a>",
 "播放链接":"href=\"&&\"",
 "简介": "<div class=\"detail-intro\">&&</div>",
 "分类url":"https://www.82mao.com/List/{cateId}-{area}-------{catePg}---{year}.html",
