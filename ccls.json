@@ -24,7 +24,7 @@
 "api": "csp_XBPQ",
 "ext": {
 
-"数组": "<div class=\"public-list-box public-pic-b\">&&</div>",
+"数组": "public-list-div public-list-bj\">&&</div>",
 "图片": "data-src=\"&&\"",
 "标题": "alt=\"&&\"",
 "链接": "href=\"&&\"",
