@@ -30,10 +30,10 @@
 
 "简介": "剧情：</span>&&</div>",
 "分类url":"https://www.hzzzsy.com/show/{cateId}-{area}-{by}------{catePg}---{year}/",
-
-"分类数组": "<li class=\"grid-item\">&&</li>",
+"分类二次截取":"<ul class=\"myui-header__menu\">&&<ul>"
+"分类数组": "<li&&</li>",
 "分类标题": ">&&</a>",
-"分类ID": "href=\"/v/&&.html\""
+"分类ID": "href=\"&&\""
 
 
 }
