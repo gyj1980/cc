@@ -40,7 +40,7 @@
     "搜索url": "https://m.82mao.com/Search/{wd}----------{pg}---.html",
     "分类": "电影$17#电视$18#动漫$48#综艺$20#短剧$53",
      
-    "分类url": "https://m.82mao.com/List/{cateId}-{area}--{class}-----{catePg}---.html"
+    "分类url": "https://m.82mao.com/List/{cateId}-{area}--{class}-----{catePg}---{year}.html"
 }
 },
 
