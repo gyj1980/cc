@@ -15,8 +15,20 @@
 },
 
 
+{
 
 
+"key": "aikan",
+"name": "爱看|T爽剧",
+"type": 3,
+"api": "csp_XBPQ",
+"ext": {
+"分类url":"https://www.akysw.com/vodshow/{cateId}-----------.html",
+"分类": "电影$1#电视$2#动漫$4#综艺$3#短剧$20#日韩剧$15#美剧$16#伦理剧$21"
+
+
+}
+},
 
 {
 
