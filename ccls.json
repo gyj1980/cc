@@ -17,6 +17,37 @@
 
 
 {
+
+"key": "天龙影院1",
+"name": "天龙|T爽剧",
+"type": 3,
+"api": "csp_XBPQ",
+"ext":{
+    "请求头": "User-Agent$MOBILE_UA",
+    "编码": "UTF-8",
+    "主页url": "https://m.82mao.com/List1/53.html",
+    "二次截取": "<ul id=\"movielist\" class=\"channel-list\">&&</ul>",
+    "数组": "<li>&&</li>",
+    "图片": "< img src=\"&&\"",
+    "标题": "<h3>&&</h3>",
+    "链接": "href=\"&&\"",
+    "副标题": "<span>&&</span>",
+    "线路数组": "<div class=\"series\">&&</div>",
+    "线路标题": "</i>&&</font>",
+    "播放数组": "<div class=\"view-item\">&&</div>",
+    "播放标题": ">&&</a>",
+    "简介": "<p>&&</p>",
+    "搜索url": "https://m.82mao.com/Search/{wd}----------{pg}---.html",
+    "分类": "电影频道$17#电视剧场$18#动漫频道$48#综艺小品$20#短剧$53",
+     
+    "分类url": "https://m.82mao.com/List/{cateId}-{area}-------{catePg}---.html"
+}
+},
+
+
+
+
+{
       "key": "APP",
       "name": "App|T爽剧",
       "type": 3,
