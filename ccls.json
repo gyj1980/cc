@@ -55,7 +55,7 @@
 "线路二次截取": "<ul class=\"nav nav-tabs  pull-right\">&&</ul>",
  "线路数组": "<li&&</li>",
  "线路标题": ">&&</a>",
- "播放数组": "stui-content__playlist clearfix column8\">&&</ul>",
+ "播放数组": "tab-pane fade in clearfix\">&&</div>",
     "播放标题": ">&&</a>",     
   "分类url": "https://www.jzleyu.com/vodshow/{cateId}-{area}-{by}------{catePg}---{year}.html",
         "分类": "电影$1#电视剧$2#综艺$zongyi#动漫$3",
