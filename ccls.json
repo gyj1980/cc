@@ -4,7 +4,7 @@
 "warningText": "荷城茶秀接口完全免费，切勿付费购买！",
 "sites": [
 {
-"key": "js_豆瓣热播",
+"key": "js豆瓣热播",
 "name": "潺潺流水",
 "type": 3,
 "api": "https://gitee.com/gyjune/tianwei/raw/master/drpy2.min.js",
