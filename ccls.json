@@ -51,8 +51,13 @@
       "type": 3,
       "api": "csp_XBPQ",
       "ext": {
-        "简介": "<p class=\"col-pd\">&&</p>",
-        "分类url": "https://www.jzleyu.com/vodshow/{cateId}-{area}-{by}------{catePg}---{year}.html",
+ "简介": "<p class=\"col-pd\">&&</p>",
+"线路二次截取": "<ul class=\"nav nav-tabs  pull-right\">&&</ul>",
+ "线路数组": "<li&&</li>",
+ "线路标题": ">&&</a>",
+ "播放数组": "stui-content__playlist clearfix column8\">&&</ul>",
+    "播放标题": ">&&</a>",     
+  "分类url": "https://www.jzleyu.com/vodshow/{cateId}-{area}-{by}------{catePg}---{year}.html",
         "分类": "电影$1#电视剧$2#综艺$zongyi#动漫$3",
         "类型": "动作片$6#喜剧片$7#爱情片$8#科幻片$9#剧情片$11#恐怖片$10#战争片$12#纪录片$20||国产剧$13#日韩剧$15#欧美剧$16#港澳剧$14||空||空"
       }
