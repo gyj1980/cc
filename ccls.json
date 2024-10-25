@@ -16,6 +16,32 @@
 
 
 
+
+{
+
+
+"key": "x空",
+"name": "星空|T爽剧",
+"type": 3,
+"api": "csp_XBPQ",
+"ext": {
+"线路数组": "module-tab-item tab-item\"&&</div>",
+"线路标题": "<span>&&</small>[替换:</span><small>>>共]+集",
+
+"简介": "剧情：</span>&&</div>",
+"分类url":"https://www.hzzzsy.com/show/{cateId}-{area}-{by}------{catePg}---{year}/",
+
+"分类数组": "<li class=\"grid-item\">&&</li>",
+"分类标题": ">&&</a>",
+"分类ID": "href=\"/v/&&.html\""
+
+
+}
+},
+
+
+
+
 {
 
 "key": "天龙影院",
