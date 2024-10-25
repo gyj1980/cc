@@ -25,10 +25,10 @@
 "type": 3,
 "api": "csp_XBPQ",
 "ext": {
-"线路数组": "module-tab-item tab-item\"&&</div>",
-"线路标题": "<span>&&</small>[替换:</span><small>>>共]+集",
+"线路数组": "#playlist&&</li>",
+"线路标题": ">&&</a>",
 
-"简介": "剧情：</span>&&</div>",
+"简介": "<span class=\"sketch content\">&&</span>",
 "分类url":"https://www.hzzzsy.com/show/{cateId}-{area}-{by}------{catePg}---{year}/",
 "分类二次截取":"<ul class=\"myui-header__menu\">&&<ul>"
 "分类数组": "<li&&</li>",
