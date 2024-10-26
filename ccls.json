@@ -1,7 +1,7 @@
 ﻿{
 "spider": "https://8177.kstore.space/hechengchaxiu/HeChengChaXiu.jar",
 "wallpaper": "http://我不是.肥猫.love:63/ppic/feimao.php",
-"warningText": "荷城茶秀接口完全免费，切勿付费购买！",
+"warningText": "潺潺流水接口完全免费，切勿付费购买！",
 "sites": [
 {
 "key": "js豆瓣热播",
@@ -13,6 +13,97 @@
 "filterable": 0,
 "ext": "https://8177.kstore.space/js/douban.js"
 },
+
+
+
+
+
+{
+
+
+"key": "星空",
+"name": "星空|T爽剧",
+"type": 3,
+"api": "csp_XBPQ",
+"ext": {
+"线路数组": "#playlist&&</li>",
+"线路标题": ">&&</a>",
+
+"简介": "<span class=\"sketch content\">&&</span>",
+"分类url":"https://www.hzzzsy.com/show/{cateId}-{area}-{by}------{catePg}---{year}/",
+"分类": "电影$dianying#电视剧$lianxuju#动漫$dongman#综艺$zongyi"
+
+}
+},
+
+
+
+{
+
+"key": "天龙影院",
+"name": "天龙|T爽剧",
+"type": 3,
+"api": "csp_XBPQ",
+"ext":{
+    "请求头": "User-Agent$MOBILE_UA",
+    "编码": "UTF-8",
+    "主页url": "https://m.82mao.com/",
+    "二次截取": "<ul id=\"movielist\" class=\"channel-list\">&&</ul>",
+    "数组": "<li>&&</li>",
+    "图片": "< img src=\"&&\"",
+    "标题": "<h3>&&</h3>",
+    "链接": "href=\"&&\"",
+    "副标题": "<span>&&</span>",
+    "线路数组": "<div class=\"series\">&&</div>",
+    "线路标题": "</i>&&</font>",
+    "播放数组": "<div class=\"view-item\">&&</div>",
+    "播放标题": ">&&</a>",
+    "简介": "<p>&&</p>",
+    
+    "分类": "电影$17#电视$18#动漫$48#综艺$20#短剧$53",
+     
+    "分类url": "https://m.82mao.com/List/{cateId}-{area}--{class}-----{catePg}---{year}.html"
+}
+},
+
+
+{
+      "key": "快看",
+      "name": "快看|T爽剧",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+ "简介": "<p class=\"col-pd\">&&</p>",
+"线路二次截取": "<ul class=\"nav nav-tabs  pull-right\">&&</ul>",
+ "线路数组": "<li&&</li>",
+ "线路标题": ">&&</a>",
+ "播放数组": "tab-pane fade in clearfix&&</div>",
+    "播放标题": ">&&</a>",    
+  "分类url": "https://www.jzleyu.com/vodshow/{cateId}-{area}-{by}------{catePg}---{year}.html",
+        "分类": "电影$1#电视剧$2#综艺$zongyi#动漫$3",
+        "类型": "动作片$6#喜剧片$7#爱情片$8#科幻片$9#剧情片$11#恐怖片$10#战争片$12#纪录片$20||国产剧$13#日韩剧$15#欧美剧$16#港澳剧$14||空||空"
+      }
+    },
+
+
+{
+      "key": "APP",
+      "name": "App|T爽剧",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "简介": "<div class=\"stui-content__desc col-pd clearfix\">&&</div>",
+        "分类url": "https://www.appmovie.vip/index.php/vod/show/area/{area}/by/{by}/id/{cateId}/page/{catePg}.html",
+        "分类": "电影$1#电视剧$2#综艺$zongyi#动漫$3",
+        "类型": "动作片$6#喜剧片$7#爱情片$8#科幻片$9#剧情片$11#恐怖片$10#战争片$12#纪录片$20||国产剧$13#日韩剧$15#欧美剧$16#港澳剧$14||空||空"
+      }
+    },
+
+
+
+
+
+
 
 
 
