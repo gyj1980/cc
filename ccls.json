@@ -14,41 +14,6 @@
 "ext": "https://8177.kstore.space/js/douban.js"
 },
 
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 90f1645e024ea67e8841f8c06337d253b55e9514
-{
-
-
-"key": "素白",
-"name": "素白|T爽剧",
-"type": 3,
-"api": "csp_XBPQ",
-"ext": {
-<<<<<<< HEAD
-"线路数组": "<div class=\"mi_ne_kd\">&&</div>",
-"线路标题": ">&&</span>",
-
-"简介": "<span class=\"sketch content\">&&</span>",
-=======
-"线路数组": "<div class=\"mi_paly_box\">&&</div>",
-"线路标题": ">&&</span>[替换:在线观看>>空]",
-"播放数组": "<div class=\"paly_list_btn\">&&</div>",
-"播放标题": ">&&</a>",
-"简介": "<div class=\"yp_context\">&&</div>",
->>>>>>> 90f1645e024ea67e8841f8c06337d253b55e9514
-"分类url":"https://www.subaibaiys.com/{cateId}/page/{catePg}",
-"分类": "电影$new-movie#电视剧$tv-drama#动漫电影$cartoon-movie#热门电影$hot-month#香港经典电影$hongkong-movie#国产剧$domestic-drama#欧美剧$american-drama#韩剧$korean-drama#动漫剧$anime-drama"
-
-}
-},
-<<<<<<< HEAD
-=======
-
->>>>>>> 90f1645e024ea67e8841f8c06337d253b55e9514
-
 {
 
 
