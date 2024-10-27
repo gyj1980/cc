@@ -14,6 +14,29 @@
 "ext": "https://8177.kstore.space/js/douban.js"
 },
 
+
+
+{
+    "key": "如意",
+    "name": "如意|T爽剧",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "ext":{
+    "线路数组":"module-tab-item tab-item\"&&</div>", 
+
+    "线路标题":"<span>&&</small>[替换:</span><small>>>共]+集",
+
+    "分类url":"https://ruyiys.com/index.php/vod/show/area/{area}/by/{by}/id/{cateId}/page/{catePg}.html",
+
+    "分类": "电影$1#剧集$2#动漫$4#综艺$3#短剧$5"
+
+    }
+    },
+
+
+
+
+
 {
 
 
