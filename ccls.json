@@ -318,7 +318,7 @@
 "type": 3,
 "api": "csp_XBPQ",
 "ext": {
-"线路二次截取":"<ul class=\"hl-from-list\">&&</ul>",
+"线路二次截取":"<ul class=\"hl-from-list\">&&</ul>[不包含:线路1]",
 "线路数组": "<li&&</li>",
 "线路标题": ">&&</span>",
 "分类url":
