@@ -318,9 +318,9 @@
 "type": 3,
 "api": "csp_XBPQ",
 "ext": {
-"线路二次截取":"<ul class=\"hl-from-list\">&&</ul>",
-"线路数组": "<li&&</li>[不包含:线路1]",
-"线路标题": ">&&</span>",
+"线路二次截取":"<div class=\"hl-plays-from hl-tabs swiper-wrapper clearfix\">&&</div>",
+"线路数组": "<a&&</a>[不包含:线路1]",
+"线路标题": "alt=\"&&\"",
 "分类url":
 "http://cageyy.cc/vodshow/id/{cateId}/page/{catePg}/year/{year}.html",
 
