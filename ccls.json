@@ -28,7 +28,7 @@
 
     "分类url":"https://ruyiys.com/index.php/vod/show/area/{area}/by/{by}/id/{cateId}/page/{catePg}.html",
 
-    "分类": "电影$1#剧集$2#动漫$4#综艺$3#短剧$5"
+    "分类": "电影$6#剧集$1#动漫$7#综艺$8"
 
     }
     },
