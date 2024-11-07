@@ -19,7 +19,7 @@
 
 
            {
-            "key": "河马影院12",
+            "key": "河马影院",
             "name": "河马┃T爽剧",
             "type": 3,
             "api": "csp_XBPQ",
@@ -28,7 +28,7 @@
             "filterable": 1,
             "ext": {
     "线路数组":"<div class=\"stui-vodlist__head\">&&</span><h4>", 
-
+"简介":"none;\">&&</span>",
     "线路标题":">&&", 
     "分类url": "https://www.hemahe.com/tags/{cateId}-{area}-{by}--{lang}----{catePg}---{year}.html",
                 "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$27",
