@@ -19,6 +19,24 @@
 
 
            {
+            "key": "大米星球",
+            "name": "大米┃T爽剧",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+    "线路数组":"<div class=\"stui-vodlist__head\">&&</span><h4>", 
+"简介":"none;\">&&</span>",
+    "线路标题":">&&", 
+    "分类url": "http://www.ftkmusic.com/vodshow/{cateId}-{area}-{by}--{lang}----{catePg}---{year}.html",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$27"
+            }
+        },     
+
+
+           {
             "key": "13河马影院",
             "name": "河马┃T爽剧",
             "type": 3,
