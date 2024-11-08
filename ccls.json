@@ -27,8 +27,8 @@
 "ext": {
 
 "线路二次截取":"stui-pannel stui-pannel-bg clearfix\">&&</div></div></div>",
-"线路数组":"nore text-muted pull-right\"></span>&&</div>",
-"线路标题":"title\">&&</h3>",
+"线路数组":"<h3&&</h3>",
+"线路标题":">&&",
 "播放数组":"stui-content__playlist clearfix\">&&</ul>",
 "播放标题":">&&</a>",
 "简介":"none;\">&&</span>",
