@@ -29,7 +29,7 @@
 "线路标题": "<span>&&</small>[替换:</span><small>>>共]+集",
 "简介": "<p>&&</p>",
 "分类url":"https://123.52sharing.cn/soshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}",
-"分类": "电影$1#剧集$2#动漫$4#综艺$3"
+"分类": "电影$dianying#剧集$dianshiju#动漫$dongman#综艺$zongyi"
 
 }
 },
