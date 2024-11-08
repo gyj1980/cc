@@ -25,10 +25,12 @@
 "type": 3,
 "api": "csp_XBPQ",
 "ext": {
-"线路数组": "nore text-muted pull-right\"></span>&&</div>",
-"线路标题": "title\">&&</h3>",
-"播放数组": "stui-content__playlist clearfix\">&&</ul>",
-"播放标题": ">&&</a>",
+
+"线路二次截取":"stui-pannel stui-pannel-bg clearfix\">&&</div></div></div>",
+"线路数组":"nore text-muted pull-right\"></span>&&</div>",
+"线路标题":"title\">&&</h3>",
+"播放数组":"stui-content__playlist clearfix\">&&</ul>",
+"播放标题":">&&</a>",
 "简介":"none;\">&&</span>",
 "分类url":"https://123.52sharing.cn/soshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}",
 "分类": "电影$dianying#剧集$dianshiju#动漫$dongman#综艺$zongyi"
