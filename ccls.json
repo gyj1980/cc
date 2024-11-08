@@ -27,6 +27,8 @@
 "ext": {
 "线路数组": "stui-pannel__head bottom-line active clearfix\">&&</div>",
 "线路标题": ">&&</h3>",
+"播放数组": "stui-content__playlist clearfix\">&&</ul>",
+"播放标题": ">&&</a>",
 "简介":"none;\">&&</span>",
 "分类url":"https://123.52sharing.cn/soshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}",
 "分类": "电影$dianying#剧集$dianshiju#动漫$dongman#综艺$zongyi"
