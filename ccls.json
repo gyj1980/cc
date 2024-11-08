@@ -25,8 +25,8 @@
 "type": 3,
 "api": "csp_XBPQ",
 "ext": {
-"线路数组": "</span><h3&&</h3>",
-"线路标题": ">&&",
+"线路数组": "stui-pannel__head bottom-line active clearfix\">&&</div>",
+"线路标题": ">&&</h3>",
 "简介":"none;\">&&</span>",
 "分类url":"https://123.52sharing.cn/soshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}",
 "分类": "电影$dianying#剧集$dianshiju#动漫$dongman#综艺$zongyi"
