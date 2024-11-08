@@ -33,8 +33,8 @@
 "播放标题": ">&&</a>",
 "播放列表": "<li>&&</li>",
 
-    "分类url": "http://www.ftkmusic.com/vodshow/{cateId}-{area}-{by}--{lang}----{catePg}---{year}.html",
-                "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
+    "分类url": "https://www.jiaozi.me/mlist/{cateId}-{catePg}.html",
+                "分类": "电影$index1#电视剧$index2"
             }
         },     
 
