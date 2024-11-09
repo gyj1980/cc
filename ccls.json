@@ -18,19 +18,13 @@
 
 
 {
-"key": "dlmv",
-"name": "DJMV|T爽剧",
+"key": "白羊",
+"name": "白羊|T爽剧",
 "type": 3,
 "api": "csp_XBPQ",
 "ext": {
-   
-   
-"线路标题": "DJMV",
-"分类url":"https://www.tttmv.com/dj/14_{cateId}_{catePg}.html",
-"分类数组":"<li class=\"nav-item icon \">&&</li>",
-"分类标题": ">&&</a>",
-"分类ID": "href=\"/dj/&&.html\"",
-"类型":"最新发布$14#精品推荐$17#昨日榜单$18#本周榜单$19#本月榜单$20#年度榜单$21#收藏榜单$23#下载榜单$22"
+  "分类url":"https://www.szadcctv.com/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+"分类":"电影$1#电视剧$2#综艺$3#动漫$4"
        
 }
 },
