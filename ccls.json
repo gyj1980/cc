@@ -30,7 +30,7 @@
     "链接": "href=\"&&\"",
    
 "线路标题": "DJMV",
-"分类url":"https://www.tttmv.com/dj/14_{cateId}_{catePg}.html;;ak",
+"分类url":"https://www.tttmv.com/dj/14_{cateId}_{catePg}.html",
 "分类数组":"<li class=\"nav-item icon \">&&</li>",
 "分类标题": ">&&</a>",
 "分类ID": "href=\"/dj/&&.html\"",
