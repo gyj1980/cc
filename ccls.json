@@ -26,6 +26,10 @@
 
 "线路数组":"#playlist&&</li>",
 "线路标题":">&&</a>",
+"播放数组":"<ul class=\"gundong stui-content__playlist clearfix column8\">&&</ul>",
+"播放标题":">&&</a>",
+"播放列表":"<li>&&</li>",
+"播放链接":"href=\"&&\"",
 "简介":"<span class=\"detail-sketch\">&&</span>",
 "分类url":"https://www.xxrcjyjjh.com/tts/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
 "分类": "电影$dianying#剧集$dianshiju#动漫$dongman#综艺$zongyi"
