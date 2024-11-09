@@ -18,6 +18,13 @@
 
 
 {
+      "key": "djmv",
+      "name": "音乐|T爽剧",
+      "type": 4,
+      "api": "https://8177.kstore.space/w/yy.php"
+    },
+
+{
 "key": "tutu",
 "name": "兔兔|T爽剧",
 "type": 3,
