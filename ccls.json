@@ -24,9 +24,9 @@
 "api": "csp_XBPQ",
 "ext": {
 
-"线路数组":"stui-pannel_hd\">&&</div>",
-"线路标题":"title\">&&</h3>",
-"简介":"none;\">&&</span>",
+"线路数组":"#playlist&&</li>",
+"线路标题":">&&</a>",
+"简介":"<span class=\"detail-sketch\">&&</span>",
 "分类url":"https://www.xxrcjyjjh.com/tts/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
 "分类": "电影$dianying#剧集$dianshiju#动漫$dongman#综艺$zongyi"
 
