@@ -23,10 +23,10 @@
 "api": "csp_XBPQ",
 "ext": {
 
-"线路数组": "#playlist&&</li>",
+"线路数组": "#con_playlist_&&</li>",
 "线路标题": ">&&</a>",
-"简介": "MyTheme.Layer.Text('剧情简介','&&','500','350')\">详情",
-"分类url":"http://www.gdjwjch.com/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+"简介": "<p>&&</P>",
+"分类url":"http://ptikq.xyflzx.com/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
 "分类数组":"hidden-xs\">&&</li>",
 "分类标题": ">&&</a>",
 "分类ID": "href=\"http://ptikq.xyflzx.com/list/&&.html\""
