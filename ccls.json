@@ -352,7 +352,7 @@
 
 "线路数组": "#playlist&&</li>",
 "线路标题": ">&&</a>",
-"简介": "<p class=\"data hidden-xs\">&&</p>",
+"简介": "MyTheme.Layer.Text('剧情简介','&&','500','350')\">详情",
 "分类url":"http://www.gdjwjch.com/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
 "分类数组":"<li class=\"col-lg-5 col-md-5 col-sm-5 col-xs-3\">&&</li>",
 "分类标题": ">&&</a>",
