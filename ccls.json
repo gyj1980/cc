@@ -29,7 +29,7 @@
 "分类url":"http://ptikq.xyflzx.com/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
 "分类数组":"swiper-slide&&</a>",
 "分类标题": ">&&",
-"分类ID": "href=\"http://ptikq.xyflzx.com/list/&&.html\""
+"分类ID": "href=\"http://ptikq.xyflzx.com/*/&&.html\""
 
 }
 },
