@@ -25,7 +25,7 @@
 
 "线路数组": "#con_playlist_&&</li>",
 "线路标题": ">&&</a>",
-"简介": "<p>&&</P>",
+"简介": "<div class=\"article-content\">&&</div>",
 "分类url":"http://ptikq.xyflzx.com/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
 "分类数组":"hidden-xs\">&&</li>",
 "分类标题": ">&&</a>",
