@@ -23,11 +23,7 @@
 "type": 3,
 "api": "csp_XBPQ",
 "ext": {
-    "二次截取": "<ul class=\"clear-fix\">&&</ul>",
-    "数组": "<li>&&</li>",
-    "图片": "< img src=\"&&\"",
-    "标题": "alt=\"&&\"",
-    "链接": "href=\"&&\"",
+   
    
 "线路标题": "DJMV",
 "分类url":"https://www.tttmv.com/dj/14_{cateId}_{catePg}.html",
