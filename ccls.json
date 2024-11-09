@@ -25,7 +25,7 @@
 "ext": {
 
 "线路数组":"#playlist&&</li>",
-"线路标题":">&&</a>",
+"线路标题":">&&</a>[替换:线路1>>空]",
 "播放数组":"<ul class=\"gundong stui-content__playlist clearfix column8\">&&</ul>",
 "播放标题":">&&</a>",
 "播放列表":"<li>&&</li>",
