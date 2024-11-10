@@ -17,14 +17,14 @@
 
 
 {
-"key": "开心",
-"name": "开心|T爽剧",
+"key": "麻花哥",
+"name": "麻花哥|T爽剧",
 "type": 3,
 "api": "csp_XBPQ",
 "ext": {
 
   "分类url":"https://www.mahuage1.com/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
-"分类": "电影$dianying#剧集$dianshiju#动漫$dongman#综艺$zongyi"}
+"分类": "电影$1#剧集$2#动漫$4#综艺$3"}
 },
 
 {
