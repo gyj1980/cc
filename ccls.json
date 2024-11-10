@@ -16,6 +16,18 @@
 
 
 
+
+{
+"key": "68",
+"name": "68|T爽剧",
+"type": 3,
+"api": "csp_XBPQ",
+"ext": {
+
+  "分类url":"https://www.shofhome.cn/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+"分类": "电影$1#剧集$2#动漫$4#综艺$3"}
+},
+
 {
 "key": "麻花哥",
 "name": "麻花哥|T爽剧",
