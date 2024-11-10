@@ -16,7 +16,17 @@
 
 
 
+{
+"key": "全年",
+"name": "全年|T爽剧",
+"type": 3,
+"api": "csp_XBPQ",
+"ext": {
+  "分类url":"https://www.1nianys.com/{cateId}-{area}-{year}/page/{catePg}",
+"分类": "电影$dianying#剧集$dianshiju#动漫$dongman#综艺$zongyi"
 
+}
+},
 
 {
       "key": "qiux",
