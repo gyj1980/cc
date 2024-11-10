@@ -20,13 +20,13 @@
 
 
 {
-"key": "蜂鸟w",
-"name": "蜂鸟|T爽剧",
+"key": "吉祥",
+"name": "吉祥|T爽剧",
 "type": 3,
 "api": "csp_XBPQ",
 "ext": {
 
-  "分类url":"https://www.hyjy365.com/vod/{catePg}/{cateId}/0/0/0/0/0/0",
+    "分类url":"http://www.jxosta.com.cn/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
 "分类": "电影$1#剧集$2#动漫$4#综艺$3"}
 },
 
