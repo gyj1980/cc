@@ -19,8 +19,8 @@
 
 
 {
-      "key": "速影tv",
-      "name": "🍒速影TV┃T爽剧",
+      "key": "速影tv1",
+      "name": "速影TV┃T爽剧",
       "type": 3,
       "changeable": 1,
       "searchable": 1,
@@ -39,6 +39,7 @@
         "播放数组": "<ul class=\"stui-content__playlist column10 clearfix m3u8\"&&</ul>",
         "播放标题": ">&&</a>",
         "播放列表": "<li>&&</li>",
+        "播放链接": "href=\"&&\"",
         "分类url": "https://xn--tv-ks3d939o.com/movie-list-id-{cateId}-pg-{catePg}-order-desc-by-dayhits-class-0-year-{year}-letter--area-{area}-lang-.html",
         "分类": "电影$1#电视剧$2#动漫$4#综艺$3"
       }
