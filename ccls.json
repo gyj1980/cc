@@ -17,6 +17,33 @@
 
 
 
+
+{
+      "key": "速影tv",
+      "name": "🍒速影TV┃T爽剧",
+      "type": 3,
+      "changeable": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "api": "csp_XBPQ",
+      "ext": {
+        "简介": "【天马行空】提醒您请勿相信影片中的广告，以免上当受骗！+</span><span class=\"detail-sketch\">&&</span>",
+        "数组": "<li class=\"col-md-6 col-sm-4 col-xs-3\">&&</li>",
+        "标题": "title=\"&&\"",
+        "副标题": "🍎天马行空🍎+pic-text text-right\">&&</span>",
+        "图片": "imgtag=\"&&\"",
+        "链接": "href=\"&&\"",
+        "线路数组": "<span class=\"playtitle&&</span>",
+        "线路标题": "🍎天马行空接口🍎+</i>&&",
+        "播放数组": "<ul class=\"stui-content__playlist column10 clearfix m3u8\"&&</ul>",
+        "播放标题": ">&&</a>",
+        "播放列表": "<li>&&</li>",
+        "分类url": "https://xn--tv-ks3d939o.com/movie-list-id-{cateId}-pg-{catePg}-order-desc-by-dayhits-class-0-year-{year}-letter--area-{area}-lang-.html",
+        "分类": "电影$1#电视剧$2#动漫$4#综艺$3"
+      }
+    },
+
 {
 "key": "白羊",
 "name": "白羊|T爽剧",
