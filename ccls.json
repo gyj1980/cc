@@ -28,7 +28,7 @@
       "filterable": 1,
       "api": "csp_XBPQ",
       "ext": {
-        "分类url": "https://m.qiuxia365.com/{cateId}/index_{class}_{area}_{year}__{catePg}.html",
+        "分类url": "https://m.qiuxia365.com/{cateId}/{catePg}",
         "分类": "电影$dianying#剧集$dianshiju#动漫$dongman#综艺$zongyi"
       }
     },
