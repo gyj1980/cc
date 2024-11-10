@@ -19,8 +19,8 @@
 
 
 {
-      "key": "秋霞12",
-      "name": "秋霞😀┃T爽剧",
+      "key": "秋霞11",
+      "name": "秋霞😍┃T爽剧",
       "type": 3,
       "changeable": 1,
       "searchable": 1,
@@ -28,7 +28,7 @@
       "filterable": 1,
       "api": "csp_XBPQ",
       "ext": {
-        "分类url": "https://m.qiuxia365.com/{cateId}/{catePg}",
+        "分类url": "https://m.qiuxia365.com/{cateId}//index_{class}____.html",
         "分类": "电影$dianying#剧集$dianshiju#动漫$dongman#综艺$zongyi"
       }
     },
