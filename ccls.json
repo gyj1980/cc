@@ -17,22 +17,13 @@
 
 
 {
-"key": "全年🍎",
-"name": "全年🍎|T爽剧",
+"key": "开心",
+"name": "开心|T爽剧",
 "type": 3,
 "api": "csp_XBPQ",
 "ext": {
-"数组": "<li class=\"movie-item\">&&</li>",
-"图片": "<img src=* _src=\"&&\"",
-"标题": "title=\"&&\"",
-"链接": "href=\"&&\"",
-"副标题": "<span class=\"rs-state\">&&</span>",
 
-"播放数组":"<ul class=\"episodes-list\">&&</ul>",
-"播放标题":">&&</a>",
-"播放列表":"<li>&&</li>",
-
-  "分类url":"https://www.1nianys.com/{cateId}/page/{catePg}",
+  "分类url":"http://www.ttxt.ltd/tw/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
 "分类": "电影$dianying#剧集$dianshiju#动漫$dongman#综艺$zongyi"}
 },
 
