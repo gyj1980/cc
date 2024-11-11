@@ -16,8 +16,8 @@
 
 
     {
-    "key": "胖虎",
-    "name": "胖虎|T爽剧",
+    "key": "胖虎😀",
+    "name": "胖😀虎|T爽剧",
     "type": 3,
     "api": "csp_XBPQ",
     "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
@@ -25,7 +25,10 @@
     "线路数组":"module-tab-item tab-item&&</div>", 
 
     "线路标题":"<span>&&</small>[替换:</span><small>>>共]+集",
-
+"播放数组":"module-play-list\">&&</div>",
+"播放标题":">&&</span>",
+"播放列表":"<a&&</a>",
+"播放链接":"href=\"&&\"",
     "分类url":"https://panghuys.com/vodshow/{cateId}/area/{area}/class/{class}/page/{catePg}year/{year}.html",
 
     "分类": "电影$1#剧集$2#动漫$4#综艺$3"
