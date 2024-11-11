@@ -123,7 +123,7 @@
     "副标题": "fed-list-remarks fed-font-xii fed-text-white fed-text-center\">&&</span>",
 "线路数组": "<li class=\"fed-padding fed-col-xs3 fed-col-sm2\">&&</li>",
 "线路标题": ">&&</a>",
-"分类url":"https://fantuansjz.com/sjvodshow/{cateId}--------{catePg}---.html",
+"分类url":"https://fantuansjz.com/sjvodshow/{cateId}-{area}-{by}-{class}-----{catePg}---.html",
 "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
 }
 },
