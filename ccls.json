@@ -35,7 +35,7 @@
 
     {
     "key": "fantuanqq12",
-    "name": "🍙饭团🍙|T爽剧",
+    "name": "饭团🍙|T爽剧",
     "type": 3,
     "api": "csp_XBPQ",
     "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
