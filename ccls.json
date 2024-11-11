@@ -16,13 +16,13 @@
 
 
     {
-    "key": "新视觉",
+    "key": "😀新视觉",
     "name": "新视觉|T爽剧",
     "type": 3,
     "api": "csp_XBPQ",
     "ext":{
     
-    "分类url":"https://www.niubiys.com/{cateId}/index{catePg}.html",
+    "分类url":"https://www.niubiys.com/{cateId}/{catePg}.html",
 
     "分类": "电影$dianying#剧集$tv#动漫$anime#综艺$zongyi"
 
