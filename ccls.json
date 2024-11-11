@@ -18,10 +18,11 @@
 
 
     {
-    "key": "fantuanqq",
-    "name": "饭团🍙|T爽剧",
+    "key": "fantuanqq12",
+    "name": "🍙饭团🍙|T爽剧",
     "type": 3,
     "api": "csp_XBPQ",
+    "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
     "ext":{
     "线路数组":"module-tab-item tab-item&&</div>", 
 
