@@ -119,7 +119,7 @@
 
 "线路数组": "<li class=\"fed-padding fed-col-xs3 fed-col-sm2\">&&</li>",
 "线路标题": ">&&</a>",
-"分类url":"http://ptikq.xyflzx.com/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+"分类url":"https://fantuansjz.com/sjvodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
 "分类数组":"<li class=\"fed-col-sm2\">&&</li>",
 "分类标题": ">&&</a>",
 "分类ID": "href=\"http://sjvodtype/&&.html\""
