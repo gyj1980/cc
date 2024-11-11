@@ -111,19 +111,18 @@
 },
 
 {
-"key": "泥巴影院1",
-"name": "泥巴影院|T爽剧",
+"key": "饭团",
+"name": "饭团|T爽剧",
 "type": 3,
 "api": "csp_XBPQ",
 "ext": {
 
-"线路数组": "#con_playlist_&&</li>",
+"线路数组": "<li class=\"fed-padding fed-col-xs3 fed-col-sm2\">&&</li>",
 "线路标题": ">&&</a>",
-"简介": "<div class=\"article-content\">&&</div>",
 "分类url":"http://ptikq.xyflzx.com/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
-"分类数组":"swiper-slide&&</a>",
-"分类标题": ">&&",
-"分类ID": "href=\"http://ptikq.xyflzx.com/*/&&.html\""
+"分类数组":"<li class=\"fed-col-sm2\">&&</li>",
+"分类标题": ">&&</a>",
+"分类ID": "href=\"http://sjvodtype/&&.html\""
 
 }
 },
