@@ -16,6 +16,23 @@
 
 
 
+
+
+
+
+{
+          "key": "飘零",
+          "name": "飘零|T爽剧",
+          "type": 3,
+          "api": "csp_XBPQ",
+          "ext": {
+            "线路数组": "module-tab-item tab-item&&</div>",
+            "线路标题": ">&&</span>+[共+<small>&&</small>+集]",
+            "分类url": "https://www.tzqjdy.com/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}/",
+            "分类": "电影$dianying#剧集$dsj#动漫$dongman#综艺$zongyi"
+          }
+        },
+
 { "key": "速影tvwww3",
 	 "name": "速影TV┃T爽剧",
 	 "type": 3,          
@@ -397,7 +414,7 @@
 
 
 {
-      "key": "APP",
+      "key": "APP1",
       "name": "App|T爽剧",
       "type": 3,
       "api": "csp_XBPQ",
