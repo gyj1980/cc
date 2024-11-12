@@ -24,6 +24,7 @@
 	 "quickSearch": 1,
 	 "filterable": 1,
 	 "api": "csp_XBPQ",
+  "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
 	 "ext": {
 		 "简介":"【天马行空】提醒您请勿相信影片中的广告，以免上当受骗！+</span><span class=\"detail-sketch\">&&</span>",
 		
