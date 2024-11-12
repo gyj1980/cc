@@ -18,26 +18,7 @@
 
 
 
-{
-"key": "liuli",
-"name": "琉璃|T爽剧",
-"type": 3,
-"api": "csp_XBPQ",
-"ext": {
-                "线路数组":"#playlist&&</li>",
 
-                "线路标题":">&&</a>",
-
-                "播放数组":"<ul class=\"myui-content__list sort-list clearfix\"&&</ul>",
-
-                "播放标题":">&&</a>",
-
-                "播放列表":"<li&&</li>",
-
-                "播放链接":"href=\"&&\"",
-  "分类url":"https://ll.yinyue.tw/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
-"分类": "电影$movie#剧集$tv#动漫$cartoon#综艺$variety"}
-},
 
 {
           "key": "飘零",
