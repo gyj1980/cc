@@ -35,7 +35,7 @@
 
   "播放列表":"<a&&</a>",
 
-  "播放链接":"href="&&"",
+  "播放链接":"href=\"&&\"",
     "分类url":"https://www.xmxone.cn/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
 
     "分类": "电影$movie#剧集$tv#动漫$animation#综艺$variety"
