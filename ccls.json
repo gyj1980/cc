@@ -49,7 +49,7 @@
 		"播放列表":"<li>&&</li>",
 				
 		"播放链接":"https+://速影tv.com+href='&&'",
-		
+		"类型": "动作片$5#喜剧片$6#爱情片$7#科幻片$8#恐怖片$9#剧情片$10#战争片$11#纪录片$20#伦理片$22||国产剧$12#港剧$18#台剧$19#欧美剧$15#韩剧$17#日剧$16#海外剧$21||空||空",
 		
 	     "分类url":"https://速影tv.com/movie-list-id-{cateId}-pg-{catePg}-order-desc-by-dayhits-class-0-year-{year}-letter--area-{area}-lang-.html",
 		 
