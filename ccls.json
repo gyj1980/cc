@@ -28,7 +28,7 @@
   "简介":"none;\">&&</span>",
   "线路数组": "<span class=\"pull-right1\">&&</span>",
   "线路标题": "&&",
-  "分类url": "https://www.hemahd.com/tags/{cateId}-{area}-------{catePg}---{year}.html",
+  "分类url": "https://www.hemahd.com/tags/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
   "分类": "电影&电视剧&动漫&综艺",
   "分类值": "1&2&3&4"
 }
