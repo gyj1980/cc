@@ -1,4 +1,5 @@
-﻿{
+            "线路数组": "class=\"module-tab-item tab-item&&/div>",
+            "线路标题": "<span>&&</span>+[共+<small>&&</small>+集]",﻿{
 "spider": "https://8177.kstore.space/hechengchaxiu/HeChengChaXiu.jar",
 "wallpaper": "http://我不是.肥猫.love:63/ppic/feimao.php",
 "warningText": "潺潺流水接口完全免费，切勿付费购买！",
@@ -1232,8 +1233,8 @@
 "副标题": "public-list-prb hide ft2\">&&</span>", "图片": "data-src=\"&&\"",
 "标题": "alt=\"&&\"",
 "链接": "href=\"&&\"",
-            "线路数组": "#ewave-playlist&&</li>",
-            "线路标题": ">&&<em>",
+            "线路数组": "<a class=\"swiper-slide\">&&</a>",
+            "线路标题": "</i>&nbsp;&&",
             "分类url": "https://www.badiankanying.com/vod/list.html?cate_id={class}&page={catePg}&type_id={cateId}",
             "分类": "电影$133#剧集$134#动漫$136#综艺$136"
           }
