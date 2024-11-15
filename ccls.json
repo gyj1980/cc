@@ -1227,7 +1227,10 @@
           "name": "⏰8点┃T爽剧",
           "type": 3,
           "api": "csp_XBPQ",
-          "ext": {         
+          "ext": { 
+"简介":"class=\"text cor3\">&&</div>",
+"导演":"导演 :&&</div>",
+"演员":"演员 :&&</div>",   
 "数组": "<div class=\"public-list-box public-pic-a [swiper]\">&&</div>",
 "副标题": "public-list-prb hide ft2\">&&</span>", "图片": "data-src=\"&&\"",
 "标题": "alt=\"&&\"",
