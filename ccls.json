@@ -1218,7 +1218,7 @@
             "简介": "<p>&&</p>",
             "线路数组": "module-tab-item tab-item\"&&</div>",
             "线路标题": "<span>&&</small>[替换:</span><small>>>共]+集",
-            "分类url": "https://www.meiyd11.com/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+            "分类url": "https://www.meiyd12.com/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
             "分类": "电影$1#剧集$2#动漫$4#综艺$3"
           }
         },
@@ -1228,7 +1228,7 @@
           "type": 3,
           "api": "csp_XBPQ",
           "ext": { 
-"状态":"<div class=\"slide-info hide\">&&</div>",
+"影片年代":"<span class=\"slide-info-remarks\">&&</span>",
 "简介":"class=\"text cor3\">&&</div>",
 "导演":"导演 :&&</div>",
 "演员":"演员 :&&</div>",   
