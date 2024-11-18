@@ -19,7 +19,13 @@
 
 
 
-
+{
+          "key": "freeok",
+          "name": "🐟自由┃T爽剧",
+          "type": 3,
+          "api": "csp_XBPQ",
+          "ext":"./lib/free.json"
+        },
 
 {
           "key": "万亿",
