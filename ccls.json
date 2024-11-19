@@ -17,7 +17,24 @@
 
 
 
-
+{
+          "key": "🌹八号",
+          "name": "八号┃T爽剧",
+          "type": 3,
+          "api": "csp_XBPQ",
+          "ext":{
+  
+"播放数组":"<ul class=\"stui-content__playlist playlink clearfix column8\">&&</ul>",
+"播放标题":">&&</a>",
+"播放列表":"<li>&&</li>",
+"播放链接":"http://www.bahaoys.com+href='&&'",
+  
+"分类url": "http://www.bahaoys.com/frim/{cateId}-{catePg}.html",
+"分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+   
+"类型": "动作片$5#喜剧片$10#爱情片$6#科幻片$7#恐怖片$8剧情片$12||国产剧$13#港台剧$14#欧美剧$15#日韩剧$16||空||空"
+    }
+        },
 
 {
           "key": "freeok",
