@@ -24,7 +24,7 @@
           "name": "🐟自由┃T爽剧",
           "type": 3,
           "api": "csp_XBPQ",
-          "ext":"./lib/free.json"
+          "ext":"https://ghp.ci/https://raw.githubusercontent.com/gyjune/cc/main/lib/free.json"
         },
 
 {
