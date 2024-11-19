@@ -5,6 +5,3 @@ https://raw.githubusercontentS.com/gyjune/cc/main/dc.txt
 
 
 
-//多仓加密
-
-https://raw.githubusercontentS.com/gyjune/cc/main/jmdc.txt
