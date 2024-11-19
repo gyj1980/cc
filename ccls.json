@@ -7,11 +7,11 @@
 "key": "js豆瓣热播",
 "name": "潺潺流水",
 "type": 3,
-"api": "./lib/drpy2.min.js",
+"api": "https://ghp.ci/https://raw.githubusercontent.com/gyjune/cc/main/lib/drpy2.min.js",
 "searchable": 0,
 "quickSearch": 0,
 "filterable": 0,
-"ext": "./lib/douban.js"
+"ext": "https://ghp.ci/https://raw.githubusercontent.com/gyjune/cc/main/lib/douban.js"
 },
 
 
