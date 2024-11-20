@@ -18,7 +18,25 @@
 
 
 
-
+    {
+      "key": "星辰",
+      "name": "⭐星辰|T爽剧",
+      "type": 3,
+     "api": "csp_XBPQ",
+"ext": { 
+"数组": "<li class=\"fed-list-item fed-padding fed-col-xs4 fed-col-sm3 fed-col-md2\">&&</li>",
+  "图片": "data-original=\"&&\"",
+  "标题": "html\">&&</a>",
+  "副标题": "fed-text-center\">&&</span>",
+    "链接": "href=\"&&\"",
+    "线路数组": "<li class=\"fed-tabs-btns fed-part-curs fed-font-xvi fed-mart-v fed-text-green\">&&</li>",
+    "线路标题": "&&",
+  "分类url": "https://www.xc8j.com/search.php?page={catePg}&searchtype=5&order={by}&tid={cateId}&area={area}&year={year}&letter=&yuyan=&state=&money=&ver=&jq=",
+"分类": "电影$1#剧集$2#动漫$4#综艺$3" ,
+"类型": "动作片$5#喜剧片$10#爱情片$6#科幻片$7#恐怖片$8#战争片$9#纪录片$11#剧情片$12||国产剧$13#香港剧$14#欧美剧$15#韩国剧$16#日本剧$26#台湾剧$25#泰国剧$27||空||空",
+"排序":"按时间$time#按人气$hit#按推荐$commend"
+             }
+    },
 {
           "key": "lili",
           "name": "🌕理理┃T爽剧",
