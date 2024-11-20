@@ -7,3 +7,8 @@ https://raw.githubusercontentS.com/gyjune/cc/main/dc.txt
 //多仓二
 
 https://cdn.jsdelivr.net/gh/gyjune/cc@main/dc.txt
+
+//多仓三
+
+
+https://ghproxy.cc/https://raw.githubusercontent.com/gyjune/cc/main/dc.txt
