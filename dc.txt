@@ -5,7 +5,7 @@
       "name": "多仓📚｜海阔天空"
     },
    {
-     "url": "http://120.24.204.74:1888/?explorer/share/file&hash=3a15xZXPR2wn4ZpnK14t6XVKM-r8TSFhiZMhMxRnk2QQ0IuTjb05b0Tn6lCOO-o_YZs&name=/%E6%98%A5%E7%9B%88%E5%A4%A9%E4%B8%8B%E7%82%B9%E6%92%AD6.6.5.json ",
+     "url":"https://wds.ecsxs.com/231726.txt",
       "name": "多仓📚｜春盈天下"
    },
     // {
