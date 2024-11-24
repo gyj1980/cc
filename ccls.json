@@ -18,6 +18,210 @@
 
 
 
+
+{
+    "key": "天堂",
+    "name": "天堂✈️┃T爽剧",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
+"ext":
+{
+"二次截取":"<div class=\"module-items module-poster-items-base\">&&</div></div></div></div></div>",
+"数组": "<a&&</a>",
+"图片": "data-original=\"&&\"",
+"标题": "title=\"&&\"",
+"链接": "href=\"&&\"", 
+"线路数组":"module-tab-item tab-item&&</div>", 
+//发布页:https://www.fantuan.my/
+"线路标题":"<span>&&</small>[替换:</span><small>>>共]+集",
+
+    "分类url":"https://tiantangdianyingw.com/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+
+"分类": "电影$22#剧集$20#动漫$21#综艺$23#短剧$24"
+
+    }
+    },
+{
+    "key": "tt2",
+    "name": "🚗天天┃T爽剧",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
+    "ext":{
+
+
+    "线路数组":"module-tab-item tab-item&&</div>", 
+//发布页:https://www.fantuan.my/
+    "线路标题":"<span>&&</small>[替换:</span><small>>>共]+集",
+
+"分类url":"https://ttyy8.me/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+
+    "分类": "电影$1#剧集$2#动漫$4#综艺$3"
+
+    }
+    },
+
+{
+    "key": "剧爷爷",
+    "name": "☘️剧爷爷┃T爽剧",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
+    "ext":{
+    "线路数组":"module-tab-item tab-item&&</div>", 
+//发布页:https://www.fantuan.my/
+    "线路标题":"<span>&&</small>[替换:</span><small>>>共]+集",
+
+    "分类url":"https://www.juyeye.cc/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+
+    "分类": "电影$1#剧集$2#动漫$4#综艺$3"
+
+    }
+    },
+
+{
+      "key": "嘛呀",
+      "name": "😁嘛呀|T爽剧",
+      "type": 3,
+     "api": "csp_XBPQ",
+"ext": {
+
+"分类url":"https://www.qiudiu.com/s/id-{cateId}/class/{class}/by/{by}/page/{catePg}year/{year}.html",
+"分类": "电影$a#剧集$b#动漫$d#综艺$c"
+}
+},
+{
+"key": "奈飞亚",
+"name": "🐶奈飞┃T爽剧",
+"type": 3,
+"api": "csp_XBPQ",
+"ext": {
+"线路数组": "module-tab-item tab-item&&</div>",
+"线路标题": "<span>&&</small>[替换:</span><small>>>共]+集",
+  "分类url":"https://www.netfly.tv/vod/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+"分类": "电影$1#剧集$2#动漫$4#综艺$3"
+}
+},
+{
+      "key": "开心影院1",
+      "name": "😁开心|T爽剧",
+      "type": 3,
+     "api": "csp_XBPQ",
+"ext": {
+
+"分类url":"http://www.cnqksz.com/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+"分类": "电影$1#剧集$2#动漫$4#综艺$3"
+}
+
+         
+    },
+    {
+      "key": "TVB",
+      "name": "🌥TVB|T爽剧",
+      "type": 3,
+     "api": "csp_XBPQ",
+"ext": {
+//发布页：http://www.hktvyb.vip/
+//备用:http://www.hktv07.com/
+//备用:http://www.tvyb07.com/
+//出现不能访问，尝试域名后数字加减
+ "简介":"style=\"display: none;\">&&</span>",  
+"线路数组":"</a><h3&&</h3>",
+"线路标题":"title\">&&",
+    
+"分类url":"http://www.tvyun02.com/vod/show/area/{area}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+"分类": "电影$1#剧集$2#动漫$4#综艺$3"}
+
+         
+    },
+
+{
+      "key": "小白菜",
+      "name": "🌽白菜|T爽剧",
+      "type": 3,
+     "api": "csp_XBPQ",
+"ext": {
+"简介":"<p class=\"col-pd\">&&<a target=",
+"分类url":"https://www.xbcdy.com/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+"分类": "电影$dianying#剧集$dianshiju#动漫$dongman#综艺$zongyi#短剧$duanju"
+}
+
+},
+
+{
+      "key": "360",
+      "name": "🍭彩图采集",
+      "type": 1,
+      "api": "https://cj.vodimg.top/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+                  "连续剧",
+		          "电影",
+		          "综艺",
+		          "动漫",
+				  "剧情片",
+				  "战争片",
+				  "动作片",
+				  "科幻片",      
+				  "爱情片",
+				  "喜剧片",
+				  "伦理片",
+		          "国产剧",
+		          "港台剧",
+		          "欧美剧",
+		          "日韩剧"
+      ]
+    },
+
+{
+      "key": "花姐",
+      "name": "🌺花姐|T爽剧",
+      "type": 3,
+     "api": "csp_XBPQ",
+"ext": {"简介":"<div class=\"fed-drop-boxs fed-drop-tops fed-matp-v\">&&</div>",
+"数组": "fed-lazy&&</a>",
+        "副标题": "fed-text-center\">&&</span",
+        "线路数组": "#playlist&&</li>",
+        "线路标题": "</i>&&</a>",
+"播放数组":"<ul class=\"myui-content__list scrollbar sort-list clearfix\"&&</ul>",
+"播放标题":">&&</a>",
+"播放列表":"<li&&</li>",
+"分类url":"http://iyiwang.com/search.php?page={catePg}&searchtype=5&order={by}&tid={cateId}&area={area}&year={year}&letter=&yuyan=&state=&money=&ver=&jq=",
+"分类": "电影$1#剧集$2#动漫$4#综艺$3"}
+
+         
+    },
+
+
+
+{
+      "key": "高清",
+      "name": "📽高清|T爽剧",
+      "type": 3,
+     "api": "csp_XBPQ",
+"ext": {"简介":"<span class=\"hl-content-text\"><em>&&</span>",
+"分类url":"https://www.kanbd.com/s/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+"分类": "电影$movie#剧集$series#动漫$anime#综艺$variety"}
+
+         
+    },
+    {
+      "key": "星辰123",
+      "name": "🎥电影|T爽剧",
+      "type": 3,
+     "api": "csp_XBPQ",
+"ext": {
+"分类url":"https://citytv.cc/tvs/{cateId}/by/{by}/class/{class}/page/{catePg}/year/{year}/",
+"播放数组":"stui-content__playlist clearfix \">&&</ul>",
+"播放标题":">&&</a>[替换:1080P>>空]",
+"分类": "电影$dianying#剧集$dianshiju#动漫$dongman#综艺$zongyi"}
+
+         
+    },
+
     {
       "key": "星辰",
       "name": "⭐星辰|T爽剧",
