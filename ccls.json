@@ -16,7 +16,21 @@
 
 
 
+{
+    "key": "雪糕",
+    "name": "🐞雪糕┃T爽剧",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "click": "document.getElementById(\"cciframe\").contentWindow.document.getElementById(\"#start\").click();",
+    "ext":{
 
+
+"分类url":"https://www.xgitv.com/vshow/{cateId}--{by}------{catePg}---.html",
+
+    "分类": "电影$dianying#剧集$dianshiju#动漫$dongman#综艺$zongyi"
+
+    }
+    },
 
 {
     "key": "皮皮蛋",
