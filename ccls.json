@@ -23,6 +23,24 @@
 
 
 {
+    "key": "兄弟",
+    "name": "👬兄弟┃T爽剧",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "ext":{
+
+
+    "线路数组":"module-tab-item tab-item&&</div>", 
+    "线路标题":"<span>&&</small>[替换:</span><small>>>共]+集",
+
+"分类url":"https://www.brovod.com/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}/",
+
+    "分类": "电影$1#剧集$2#动漫$4#综艺$3"
+
+    }
+    },
+
+{
       "key": "不卡猫影院",
       "name": "🐱不卡猫|T爽剧",
       "type": 3,
