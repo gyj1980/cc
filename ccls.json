@@ -21,6 +21,18 @@
 
 
 
+{
+"key": "旺旺12",
+"name": "🐯旺旺┃T爽剧",
+"type": 3,
+"api": "csp_XBPQ",
+"ext": {
+"线路数组": "module-tab-item tab-item&&</div>",
+"线路标题": "data-dropdown-value=\"&&\"+【共+<small>&&</small>+集】",
+"分类url": "https://wangwang.one/vod/list.html?area_id={area}&cate_id={class}&page={catePg}&type_id={cateId}&year_id={year}",
+"分类": "电影$377#剧集$378#动漫$380#综艺$379"
+          }
+        },
 
 {
     "key": "森林",
