@@ -22,22 +22,11 @@
 
 
 {
-"key": "旺旺12",
-"name": "🐯旺旺┃T爽剧",
+"key": "360",
+"name": "🐯360┃T爽剧",
 "type": 3,
 "api": "csp_XBPQ",
-"ext": {
-"二次截取":"<div class=\"module-items module-poster-items-base\">&&</div></div></div></div></div>",
-"数组": "<a&&</a>",
-"图片": "data-original=\"&&\"",
-"标题": "alt=\"&&\"",
-"链接": "href=\"&&\"",
-"副标题":"module-item-note\">&&</div>",
-"线路数组": "module-tab-item tab-item&&</div>",
-"线路标题": "data-dropdown-value=\"&&\"+【共+<small>&&</small>+集】",
-"分类url": "https://wangwang.one/vod/list.html?area_id={area}&cate_id={class}&page={catePg}&type_id={cateId}&year_id={year}",
-"分类": "电影$377#剧集$378#动漫$380#综艺$379"
-          }
+"ext":"https://ghp.ci/https://raw.githubusercontent.com/gyjune/cc/main/lib/360.json"
         },
 
 {
