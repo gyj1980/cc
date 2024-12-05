@@ -16,3 +16,8 @@ https://ghproxy.cc/https://raw.githubusercontent.com/gyjune/cc/main/dc.txt
 //大佬推荐
 
 https://ghp.ci/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/txt/333.txt
+
+
+//拾光
+
+https://4708.kstore.space/omg/zy.json
