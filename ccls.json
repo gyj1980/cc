@@ -18,6 +18,23 @@
 
 
 
+{
+    "key": "追影猫",
+    "name": "🎃追影猫┃T爽剧",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "ext":{
+
+
+    "线路数组":"module-tab-item tab-item&&</div>", 
+    "线路标题":"<span>&&</small>[替换:</span><small>>>共]+集",
+
+"分类url":"https://www.weisiwang.com/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+
+"分类": "电影$dianying#剧集$dsj#动漫$dongman#综艺$zongyi#热门短剧$remenduanju#体育赛事$tiyusaishi"
+
+    }
+    },
 
 {
             "key": "星云影视1245",
