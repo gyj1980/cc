@@ -4,10 +4,10 @@
       "url": "https://gitee.com/gyjune/xbpq/raw/main/xbpq.json",
       "name": "多仓📚｜海阔天空"
     },
-   {
-     "url":"https://wds.ecsxs.com/231726.txt",
-      "name": "多仓📚｜春盈天下"
-   },
+   // {
+     // "url": "https://cdn09022024.gitlink.org.cn/gyjune/xbpq/raw/branch/main/xbpq.json ",
+      //"name": "多仓📚｜海阔天空备份"
+   // },
     // {
            // "url": "https://download.kstore.space/download/4637/yzhzjk.json",
           //  "name": "📚｜宇宙线路"
@@ -16,15 +16,16 @@
             "url":"https://d.kstore.dev/download/12020/jk.bmp",
             "name": "📚｜白虾工具"
         },	
+    { 
 
-{ 
             "url":"https://mp-064c2f8f-83e1-4bd3-a4a5-103f278b40df.cdn.bspapp.com/cloudstorage/0ab79f0b-0b8b-4aeb-b076-ec9d20690a19.bmp", 
-            "name": "📚｜T4线路" 
-        },
 
+            "name": "📚｜T4线路" 
+
+        },
     {
 
-      "url": "https://d.kstore.dev/download/11256/TWYS/api.json ",
+      "url": "https://7337.kstore.space/tw/自用勿传.txt",
 
       "name": "多仓📚|天微ViP线"
 
@@ -32,13 +33,13 @@
 
     {
 
-      "url": "https://d.kstore.dev/download/11256/api.json",
+      "url": "https://11256.kstore.space/api.json",
 
       "name": "多仓📚|七星影仓"
 
     },
     {
-    "url": "https://d.kstore.dev/download/8177/米/xiaomi.json",
+    "url": "https://mi.mpanso.me/DEMO.json",
      "name": "多仓📚｜小米"
    },
     {
@@ -58,7 +59,7 @@
    },
    {
 
-   "url": "https://raw.gitmirror.com/gyjune/cc/main/ccls.json",
+   "url": "https://cdn.gitmirror.com/gh/gyjune/cc/main/ccls.json",
 
     "name": "多仓📚｜潺潺流水GitHub备份一"
 
@@ -124,7 +125,7 @@
       "name": "多仓📚｜小鱼"
     },
     {
-      "url": "https://gitee.com/gk0749/gk/raw/master/xs.json",
+      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gk0749/xs/main/xs.json",
       "name": "多仓📚｜学梳"
     },
     {
@@ -136,11 +137,11 @@
       "name": "多仓📚｜自由国度"
     },
     {
-      "url": "https://ghproxy.cc/https://raw.githubusercontent.com/guot55/yg/main/ygbox.json",
+      "url": "https://ghp.ci/https://raw.githubusercontent.com/guot55/yg/main/ygbox.json",
       "name": "多仓📚｜月光官方"
     },
     {
-      "url": "https://d.kstore.dev/download/4708/omg/omg.json",
+      "url": "https://4708.kstore.space/omg/omg.json",
       "name": "📚｜拾光专线"
     },
     {
@@ -156,12 +157,12 @@
       "name": "多仓📚｜茄子🍆"
     },
     {
-      "url": "http://ok321.top/tv",
+      "url": "http://ok321.top/ok",
       "name": "多仓📚｜OK官方"
     },
     {
-      "url": "http://120.24.204.74:1888/?explorer/share/file&hash=f1d8PlI6s_irWYOezqpTNFZsdCpUxhCDFreBqz3saWPVKaLQtR8v42tR3nv6whpElVg&name=/aishang.json",
-      "name": "多仓📚｜爱尚影视"
+      "url":"https://wds.ecsxs.com/231726.txt",
+      "name": "多仓📚｜春盈天下"
     },
     {
       "url": "https://8177.kstore.space/xiangyaqing/自制.json",
@@ -183,10 +184,10 @@
       "url": "http://bp.tvbox.cam/",
       "name": "多仓📚｜小白官方"
     },
-  //  {
-     // "url": "http://www.mpanso.com/小米/DEMO.json",
-     // "name": "多仓📚｜小米"
-    //},
+    {
+      "url": "https://mpanso.me/DEMO.json",
+      "name": "多仓📚｜小米备份"
+    },
     // {
       // "url": "https://git.acwing.com/gyjune/ouge/-/raw/main/111.json",
       // "name": "多仓📚｜讴歌新AC"
@@ -233,3 +234,4 @@
     }
   ]
 }
+美观输出
