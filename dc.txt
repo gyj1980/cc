@@ -13,7 +13,7 @@
           //  "name": "📚｜宇宙线路"
        // },  	
         {
-            "url":"https://d.kstore.dev/download/12020/jk.bmp",
+            "url":"https://download.kstore.space/download/12020/jk.bmp",
             "name": "📚｜白虾工具"
         },	
     { 
