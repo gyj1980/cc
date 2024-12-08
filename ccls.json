@@ -17,6 +17,24 @@
 
 
 
+{
+    "key": "雷神",
+    "name": "⚡️雷神┃T爽剧",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "ext":{
+
+
+    "线路数组":"module-tab-item tab-item&&</div>", 
+//发布页:https://www.fantuan.my/
+    "线路标题":"<span>&&</small>[替换:</span><small>>>共]+集",
+
+"分类url":"https://leishen.one/vod/list.html?area_id={area}&cate_id={class}&page={catePg}&type_id={cateId}&year_id={year}",
+
+    "分类": "电影$1#剧集$2#动漫$4#综艺$3"
+
+    }
+    },
 
 {
     "key": "王了个王",
