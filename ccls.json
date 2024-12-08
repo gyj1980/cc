@@ -38,7 +38,7 @@
 "播放链接":"href=\"&&\"",
 "分类url":"https://leishen.one/vod/list.html?area_id={area}&cate_id={class}&page={catePg}&type_id={cateId}&year_id={year}",
 
-    "分类": "电影$1#剧集$2#动漫$4#综艺$3"
+    "分类": "电影$1#剧集$2#动漫$4#综艺$3#短剧$42"
 
     }
     },
