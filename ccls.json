@@ -138,6 +138,7 @@
     "name": "🦊妖狐┃T爽剧",
     "type": 3,
     "api": "csp_XBPQ",
+    "click": "document.getElementById(\"cciframe\").contentWindow.document.getElementById(\"#start\").click();",
     "ext":{
 
 
