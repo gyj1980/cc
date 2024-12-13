@@ -134,8 +134,8 @@
         },
 
 {
-    "key": "森林",
-    "name": "🌲森林┃T爽剧",
+    "key": "妖狐",
+    "name": "🦊妖狐┃T爽剧",
     "type": 3,
     "api": "csp_XBPQ",
     "ext":{
@@ -144,9 +144,9 @@
     "线路数组":"module-tab-item tab-item&&</div>", 
     "线路标题":"<span>&&</small>[替换:</span><small>>>共]+集",
 
-"分类url":"https://www.ncshdxx.com/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}/",
+"分类url":"https://www.midianshi.com/vodshow/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
 
-"分类": "电影$dianying#剧集$dsj#动漫$dongman#综艺$zongyi"
+"分类": "电影$dianying#剧集$dsj#动漫$dongman#综艺$zongyi#热门短剧$remenduanju#体育赛事$tiyusaishi"
 
     }
     },
