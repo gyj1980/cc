@@ -15,7 +15,19 @@
 },
 
 
+{
+      "key": "矮人",
+      "name": "🫑矮人|T短剧",
+      "type": 3,
+     "api": "csp_XBPQ",
+"ext":{
+"线路数组":"#ewave-playlist-&&</li>",
+"线路标题":">&&<em></em>",
+"分类url":"https://m.198719.com/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+"分类":"电影$2#剧集$1#短剧$3#综艺$4#动漫$5"
 
+}
+},
 
 {
     "key": "雷神",
