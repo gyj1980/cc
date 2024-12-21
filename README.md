@@ -1,3 +1,7 @@
+
+https://ghproxy.net/https://raw.githubusercontent.com/gyjune/cc/main/ccls.json
+
+
 https://ghgo.xyz/https://raw.githubusercontent.com/gyjune/cc/main/ccls.json
 
 //多仓
