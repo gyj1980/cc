@@ -2,10 +2,9 @@
 
 {"name":"俊俊直播","url":"https://ghgo.xyz/https://raw.githubusercontent.com/gyjune/cc/refs/heads/main/tv.txt&&&https://gitee.com/gyjune/xbpq/raw/main/1.jpg"},
 {"name":"开心直播","url":"http://kxrj.site:55/lib/kx2024.txt&&&https://gitee.com/gyjune/xbpq/raw/main/1.jpg"},
-
 {"name":"AKTV港台","url":"http://aktv.top/live.m3u&&&https://gitee.com/gyjune/xbpq/raw/main/1.jpg"},
 {"name":"拾光TV","url":"http://xmbjm.fh4u.org/tv.txt&&&https://gitee.com/gyjune/xbpq/raw/main/1.jpg"},
-{"name":"范明明","url":"https://live.fanmingming.com/tv/m3u/ipv6.m3u&&&https://gitee.com/gyjune/xbpq/raw/main/1.jpg"}
+{"name":"范明明","url":"https://ghgo.xyz/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u&&&https://gitee.com/gyjune/xbpq/raw/main/1.jpg"}
 
 
 
