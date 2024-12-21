@@ -20,8 +20,8 @@
       "key": "潺潺直播",
       "name": "潺潺|T直播",
       "type": 3,
-      "api": "./lib/sdtv.js",
-      "ext": "./lib/sdtv.txt"
+      "api": "https://ghgo.xyz/https://raw.githubusercontent.com/gyjune/cc/refs/heads/main/lib/sdtv.js",
+      "ext": "https://ghgo.xyz/https://raw.githubusercontent.com/gyjune/cc/refs/heads/main/lib/sdtv.txt"
     }, 
 {
       "key": "花生",
