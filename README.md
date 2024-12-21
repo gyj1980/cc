@@ -1,3 +1,4 @@
+加固网站https://nop.gs/
 
 https://ghproxy.net/https://raw.githubusercontent.com/gyjune/cc/main/ccls.json
 
