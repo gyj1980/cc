@@ -38,6 +38,72 @@
 "年份":"2024-2022"
 }
 },
+
+{
+            "key": "几个亿影视",
+            "name": "💠几亿┃T爽剧",
+            "type": 3,
+            "api": "csp_XBPQ",
+          
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "主页url": "https://jigeyi.pro/",
+"二次截取":"<div class=\"module-items module-poster-items-base\">&&</div><div id=\"page\">",
+                "数组":"<a&&</a>",
+                "标题":"alt=\"&&\"",
+                "副标题":"note\">&&<",
+                "图片": "data-original=\"&&\"",
+                "链接":"href=\"&&\"",
+                "播放数组": "module-play-list-content&&</div>",
+                "播放列表": "<a&&a>",
+                "播放链接": "href=\"&&\"",
+                "播放标题": "<span>&&</span>",
+                "线路数组": "module-tab-item tab-item&&</div>",
+                "线路标题": "<span>&&</span>",
+                "跳转播放链接": "var player_*\"url\":\"&&\"",
+                "简介": "<p>&&</p>",
+                "搜索url": "https://jigeyi.pro/vodsearch/{wd}----------{pg}---.html",
+                "分类url": "https://jigeyi.pro/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5"
+            }
+        },
+
+{
+            "key": "皮皮虾影视",
+            "name": "🦞皮虾┃T爽剧",
+            "type": 3,
+            "api": "csp_XBPQ",
+           
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "主页url": "http://www.ppxys.vip/",
+                "二次截取":"div class=\"module-main module-page\">&&</div><div id=\"page\">",
+                "数组":"<a&&</a>",
+                "图片": "data-original=\"&&\"",
+                "标题": "title=\"&&\"",
+                "副标题": "item-note\">&&</span>",
+                "链接":"href=\"&&\"",
+                "播放数组": "module-play-list-content&&</div></div>",
+                "播放列表": "<a&&a>",
+                "播放链接": "href=\"&&\"",
+                "播放标题": "<span>&&</span>",
+                "线路数组": "module-tab-item tab-item&&</div>",
+                "线路标题": "<span>&&</span>",
+                "跳转播放链接": "var player_*\"url\":\"&&\"",
+                "简介": "description\" content=\"&&\"",
+                "搜索url": "http://www.ppxys.vip/vodsearch{wd}/page/{pg}.html",
+                "分类url": "http://www.ppxys.vip/s/{cateId}/area/{area}/by/{by}/class/{class}/lang/{lang}/letter/{letter}/page/{catePg}/year/{year}.html",
+                "分类": "电影$2#剧集$1#动漫番剧$3"
+            }
+        },
 {
       "key": "白嫖",
       "name": "🍑白嫖|T爽剧",
