@@ -1,3 +1,5 @@
+https://8177.kstore.space/tvb/nmsx.json
+
 https://git.acwing.com/gyjune/zizhjiekou/-/raw/main/zzdc.txt
 
 加固网站https://nop.gs/
