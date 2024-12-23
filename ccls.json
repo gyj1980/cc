@@ -338,21 +338,20 @@
     "name": "天堂✈️┃T爽剧",
     "type": 3,
     "api": "csp_XBPQ",
-    "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
-"ext":
+    "ext":
 {
-"二次截取":"<div class=\"module-items module-poster-items-base\">&&</div></div></div></div></div>",
-"数组": "<a&&</a>",
+
+"数组": "<li class=\"stui-vodlist__item\">&&</li>",
 "图片": "data-original=\"&&\"",
 "标题": "title=\"&&\"",
 "链接": "href=\"&&\"", 
-"线路数组":"module-tab-item tab-item&&</div>", 
-//发布页:https://www.fantuan.my/
-"线路标题":"<span>&&</small>[替换:</span><small>>>共]+集",
+"副标题":"pic-text text-right\">&&</span>"
+"线路数组":"<li class="tab-nav&&</li>", 
+"线路标题":">&&",
 
-    "分类url":"https://tiantangdianyingw.com/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+    "分类url":"https://www.sjchess.com/sub-ttdyw/{cateId}/by/{by}/page/{catePg}.html",
 
-"分类": "电影$22#剧集$20#动漫$21#综艺$23#短剧$24"
+"分类": "电影$dianying#剧集$dianshiju#动漫$dongman#综艺$zongyi"
 
     }
     },
