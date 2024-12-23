@@ -345,7 +345,7 @@
 "图片": "data-original=\"&&\"",
 "标题": "title=\"&&\"",
 "链接": "href=\"&&\"", 
-"副标题":"pic-text text-right\">&&</span>"
+"副标题":"pic-text text-right\">&&</span>",
 "线路数组":"<li class=\"tab-nav&&</li>", 
 "线路标题":">&&",
 
