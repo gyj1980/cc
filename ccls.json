@@ -346,7 +346,7 @@
 "标题": "title=\"&&\"",
 "链接": "href=\"&&\"", 
 "副标题":"pic-text text-right\">&&</span>"
-"线路数组":"<li class="tab-nav&&</li>", 
+"线路数组":"<li class=\"tab-nav&&</li>", 
 "线路标题":">&&",
 
     "分类url":"https://www.sjchess.com/sub-ttdyw/{cateId}/by/{by}/page/{catePg}.html",
