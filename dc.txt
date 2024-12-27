@@ -177,7 +177,7 @@
       "name": "多仓📚｜小二官方"
     },
     {
-      "url": "https://d.kstore.dev/download/6492/xnf/xnf.json",
+      "url": "https://6492.kstore.space/xnf/xnf.json",
       "name": "多仓📚｜小斧脑"
     },
     {
