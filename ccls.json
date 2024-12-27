@@ -386,7 +386,7 @@
 //发布页:https://www.fantuan.my/
     "线路标题":"<span>&&</small>[替换:</span><small>>>共]+集",
 
-    "分类url":"https://www.juyeye.cc/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+    "分类url":"https://www.juyeye.cc/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html;;ak",
 
     "分类": "电影$1#剧集$2#动漫$4#综艺$3"
 
