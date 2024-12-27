@@ -137,7 +137,7 @@
       "name": "多仓📚｜自由国度"
     },
     {
-      "url": "https://ghp.ci/https://raw.githubusercontent.com/guot55/yg/main/ygbox.json",
+      "url": "https://ghgo.xyz/https://raw.githubusercontent.com/guot55/yg/main/ygbox.json",
       "name": "多仓📚｜月光官方"
     },
     {
