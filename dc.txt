@@ -141,7 +141,7 @@
       "name": "多仓📚｜月光官方"
     },
     {
-      "url": "https://4708.kstore.space/omg/omg.json",
+      "url": "https://4708.kstore.space/omg/hollo.json",
       "name": "📚｜拾光专线"
     },
     {
