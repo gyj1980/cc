@@ -25,7 +25,7 @@
         },
     {
 
-      "url": "https://7337.kstore.space/tw/自用勿传.txt",
+      "url": "https://7337.kstore.space/twvip/自用测试.json",
 
       "name": "多仓📚|天微ViP线"
 
