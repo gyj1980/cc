@@ -40,6 +40,19 @@
 },
 
 
+{
+      "key": "nike",
+      "name": "🌙耐克|T爽剧",
+      "type": 3,
+     "api": "csp_XBPQ",
+"ext":{
+"线路数组":"module-tab-item tab-item&&</div>", 
+"线路标题":"data-dropdown-value=\"&&\"+【  +共+<small>&&</small>+集】",
+
+"分类url":"https://www.whbzj.com/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+"分类": "电影$dianying#剧集$dsj#动漫$dongman#综艺$zongyi#热门短剧$remenduanju#体育赛事$tiyusaishi"
+}
+},
 
 {
       "key": "nongming",
