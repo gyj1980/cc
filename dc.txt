@@ -205,7 +205,7 @@
       "name": "多仓📚｜摸鱼儿"
     },
     {
-      "url": "http://2.a.xn--dkw.xn--6qq986b3xl/m/333.php?ou=公众号欧歌app&mz=index&jar=index&321&b=欧歌",
+      "url": "https://xn--mxs-mf3g9f.v.xn--dkw.xn--6qq986b3xl/m/111.php?ou=公众号欧歌app&mz=index&jar=index&123&b=欧歌mxs",
       "name": "多仓📚｜欧歌官方"
     },
     {
