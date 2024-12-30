@@ -14,7 +14,15 @@
 "ext": "https://ghgo.xyz/https://raw.githubusercontent.com/gyjune/cc/main/lib/douban.js"
 },
 
-
+    {
+      "key": "豆豆",
+      "name": "🅱豆瓣┃T爽剧",
+      "type": 3,
+      "api": "csp_DouBan",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    },
 
  {
       "key": "潺潺直播",
