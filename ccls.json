@@ -24,6 +24,17 @@
       "ext": "https://ghgo.xyz/https://raw.githubusercontent.com/gyjune/cc/refs/heads/main/lib/sdtv.txt"
     }, 
 {
+      "key": "926看球",
+      "name": "🏀看球┃T爽剧",
+      "type": 3,
+      "api": "csp_kanqiu926",
+      "searchable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      }
+    },
+{
       "key": "花生",
       "name": "🥜花生|T短剧",
       "type": 3,
