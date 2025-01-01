@@ -3,20 +3,20 @@
 "wallpaper": "http://我不是.肥猫.love:63/ppic/feimao.php",
 "warningText": "潺潺流水接口完全免费，切勿付费购买！",
 "sites": [
-{
-"key": "js豆瓣热播",
-"name": "潺潺流水",
-"type": 3,
-"api": "https://gitee.com/gyjune/xj/raw/master/lib/drpy2.min.js",
-"searchable": 0,
-"quickSearch": 0,
-"filterable": 0,
-"ext": "https://ghgo.xyz/https://raw.githubusercontent.com/gyjune/cc/main/lib/douban.js"
-},
+//{
+//"key": "js豆瓣热播",
+//"name": "潺潺流水",
+//"type": 3,
+//"api": "https://gitee.com/gyjune/xj/raw/master/lib/drpy2.min.js",
+//"searchable": 0,
+//"quickSearch": 0,
+//"filterable": 0,
+//"ext": "https://ghgo.xyz/https://raw.githubusercontent.com/gyjune/cc/main/lib/douban.js"
+//},
 
     {
       "key": "豆豆",
-      "name": "🅱豆瓣┃T爽剧",
+      "name": "潺潺流水 不要相信片中广告注意诈骗风险",
       "type": 3,
       "api": "csp_DouDou",
       "searchable": 0,
