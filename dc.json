@@ -46,6 +46,20 @@
       "url":"https://123.yemays.vip/tv111888.json", 
       "name": "多仓📚｜萝卜库" 
     }, 
+     {
+
+      "url": "https://gitee.com/gyjune/ccls/raw/master/ccls.json",
+
+      "name": "多仓📚｜潺潺流水"
+
+    },
+    {
+
+      "url": "https://cdn09022024.gitlink.org.cn/api/v1/repos/gyjune/cc/raw/ccls.json?ref=main",
+
+      "name": "多仓📚｜潺潺流水gitlink"
+
+    },
     { 
 
       "url": "https://ghgo.xyz/https://raw.githubusercontent.com/gyjune/cc/main/ccls.json", 
