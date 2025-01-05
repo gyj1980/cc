@@ -146,16 +146,17 @@
             }
         },
 {
-      "key": "白嫖",
-      "name": "🍑白嫖|T爽剧",
+      "key": "青蛙",
+      "name": "🐸青蛙|T爽剧",
       "type": 3,
      "api": "csp_XBPQ",
 "ext":{
-"线路数组":"module-tab-item tab-item&&</div>", 
-"线路标题":"data-dropdown-value=\"&&\"+【  +共+<small>&&</small>+集】",
+ 
+"线路数组":"<h4>&&</h4>", 
+"线路标题":"</i>&&",
 
-"分类url":"https://www.xidengmen.com/vodshow/{cateId}/area/{area}/by/{by}/page/{catePg}.html",
-"分类": "电影$dianying#剧集$dsj#动漫$dongman#综艺$zongyi#热门短剧$remenduanju#体育赛事$tiyusaishi"
+"分类url":"https://qingwa.org/{cateId}.html?page={catePg}&tag={ciass}&sort={by}&area={area}&year={year}",
+"分类": "电影$movie#剧集$juji#美剧$meiju#韩剧$hanju#日剧$riju#泰剧$taiju"
 }
 },   
 
