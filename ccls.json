@@ -413,7 +413,11 @@
     "api": "csp_XBPQ",
     "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
     "ext":{
-    
+    "线路二次截取":"swiper-wrapper\">&&</div>", 
+    "线路数组":"<a&&</a>", 
+
+    "线路标题":"alt=\"&&\"",
+
     "分类url":"https://sn1817.com/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
 
     "分类": "电影$1#剧集$2#动漫$3#综艺$4"
