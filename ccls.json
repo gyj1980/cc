@@ -157,7 +157,7 @@
  "副标题": "pic-text text-left\">&&</span>",
  "链接":"href=\"&&\"",
 "线路数组":"<h4>&&</h4>", 
-"线路标题":"</i>&&",
+"线路标题":"</i>&&<!--<span>",
 
 "分类url":"https://qingwa.org/{cateId}.html?page={catePg}&tag={ciass}&sort={by}&area={area}&year={year}",
 "分类": "电影$movie#剧集$juji#美剧$meiju#韩剧$hanju#日剧$riju#泰剧$taiju"
