@@ -1,3 +1,6 @@
+
+南风直播源https://ghgo.xyz/https://raw.githubusercontent.com/gyjune/nanfengsmile/main/live.txt
+
 直播源https://git.acwing.com/gyjune/tv/-/raw/main/tv.txt
 
 https://8177.kstore.space/tvb/nmsx.json
