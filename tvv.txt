@@ -3,3 +3,6 @@
 江苏综艺,http://8.138.7.223/tv/jstv.php?id=jszy
 江苏体育,http://8.138.7.223/tv/jstv.php?id=jsty
 江苏新闻,http://8.138.7.223/tv/jstv.php?id=jsxw
+江苏公共,http://8.138.7.223/tv/jstv.php?id=jsgg
+江苏城市,http://8.138.7.223/tv/jstv.php?id=jscs
+南京少儿,http://8.138.7.223/tv/jstv.php?id=njse
