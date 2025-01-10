@@ -10,6 +10,7 @@ https://8177.kstore.space/tvb/nmsx.json
 
 https://git.acwing.com/gyjune/zizhjiekou/-/raw/main/zzdc.txt
 
+拾光https://ghproxy.cn/https://raw.githubusercontent.com/xmbjm/hollo/refs/heads/main/omg.json
 加固网站https://nop.gs/
 
 https://ghproxy.net/https://raw.githubusercontent.com/gyjune/cc/main/ccls.json
