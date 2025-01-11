@@ -92,7 +92,7 @@
       "name": "👳农民|T爽剧",
       "type": 3,
      "api": "csp_XBPQ",
-"ext":"./lib/%E5%86%9C%E6%B0%91%E5%BD%B1%E8%A7%86.json"
+"ext":"https://mirrors.chenby.cn/https://raw.githubusercontent.com/gyjune/cc/main/lib/%E5%86%9C%E6%B0%91%E5%BD%B1%E8%A7%86.json"
 },
 {
             "key": "几个亿影视",
@@ -677,7 +677,7 @@
           "name": "🐟free┃T爽剧",
           "type": 3,
           "api": "csp_XBPQ",
-          "ext":"./lib/free.json"
+          "ext":"https://mirrors.chenby.cn/https://raw.githubusercontent.com/gyjune/cc/main//lib/free.json"
         },
 
 
@@ -2307,7 +2307,7 @@
           "searchable": 0,
           "quickSearch": 0,
           "filterable": 0,
-          "ext": "./lib/ddys.js"
+          "ext": "https://mirrors.chenby.cn/https://raw.githubusercontent.com/gyjune/cc/main/lib/ddys.js"
     	  }
     
     
