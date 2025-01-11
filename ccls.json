@@ -28,8 +28,8 @@
       "key": "潺潺直播",
       "name": "📺潺潺|T直播",
       "type": 3,
-      "api": "https://ghproxy.cn/https://raw.githubusercontent.com/gyjune/cc/refs/heads/main/lib/sdtv.js",
-      "ext": "https://ghproxy.cn/https://raw.githubusercontent.com/gyjune/cc/refs/heads/main/lib/sdtv.txt"
+      "api": "./lib/sdtv.js",
+      "ext": ".lib/sdtv.txt"
     }, 
 {
       "key": "926看球",
@@ -92,7 +92,7 @@
       "name": "👳农民|T爽剧",
       "type": 3,
      "api": "csp_XBPQ",
-"ext":"https://ghgo.xyz/https://raw.githubusercontent.com/gyjune/cc/main/lib/%E5%86%9C%E6%B0%91%E5%BD%B1%E8%A7%86.json"
+"ext":"./lib/%E5%86%9C%E6%B0%91%E5%BD%B1%E8%A7%86.json"
 },
 {
             "key": "几个亿影视",
@@ -677,7 +677,7 @@
           "name": "🐟free┃T爽剧",
           "type": 3,
           "api": "csp_XBPQ",
-          "ext":"https://gh.llkk.cc/https://github.com/gyjune/cc/blob/main/lib/free.json"
+          "ext":"./lib/free.json"
         },
 
 
@@ -2307,7 +2307,7 @@
           "searchable": 0,
           "quickSearch": 0,
           "filterable": 0,
-          "ext": "https://8177.kstore.space/js/ddys.js"
+          "ext": "./lib/ddys.js"
     	  }
     
     
