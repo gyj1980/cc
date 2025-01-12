@@ -202,7 +202,7 @@
 "数组":"/vod/detail.html?&&</a>",
 "标题":"alt=\"&&\"",
 "副标题":"module-item-note\">&&</div>",
-"链接":"/vod/detail.html?+href="\&&\"",
+"链接":"/vod/detail.html?+href='&&'",
 "图片":"data-original=\"&&\"",
 "二次截取":"<div class=\"module-items module-poster-items-base\">&&</div></div></div>",
 
