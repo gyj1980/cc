@@ -75,14 +75,14 @@
 
 
 {
-    "key": "🚛 农民直连 | DEX",
-    "name": "🚛 农民直连 |T爽剧",
+    "key":"农民直连 | DEX",
+    "name":"🚛 农民直连 |T爽剧",
     "type": 3,
-    "api": "csp_Nongm",
-    "ext": "https://wwgz.cn",
+    "api":"csp_Nongm",
+    "ext":"https://wwgz.cn",
     "searchable": 1,
     "quickSearch": 1,
-    "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1735929700473/Feimao250104.txt;md5;5b3659cbd185ab44d1dc65a0fde78a0f"
+    "jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1735929700473/Feimao250104.txt"
 },
 {
       "key": "nike",
