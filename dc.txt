@@ -68,9 +68,9 @@
       "url": "https://gitee.com/gyj07/jjtx/raw/main/俊俊同学.json",
       "name": "多仓📚｜俊俊同学"
     },
-   //{
-       //"url": "https://codeberg.org/gyj07/xbpq/raw/branch/main/xbpq.json",
-      // "name": "多仓📚｜俊俊同学codeberg"
+   {
+       "url": "https://gitee.com/huasjf/tvbox/raw/main/hsjf3.json",
+       "name": "多仓📚｜疾风劲草"
     // },
     // {
        //"url": "https://cdn09022024.gitlink.org.cn/gyjune/jjtx/raw/branch/main/xbpq.json",
@@ -161,7 +161,7 @@
       "name": "多仓📚｜OK官方"
     },
     {
-      "url":"https://wds.ecsxs.com/231726.txt",
+      "url":"https://wds.ecsxs.com/232004.css",
       "name": "多仓📚｜春盈天下"
     },
     {
