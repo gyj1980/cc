@@ -13,7 +13,7 @@
             "name": "📚｜码点小干货"
         },  	
         {
-            "url":"https://12020.kstore.space/jk.bmp",
+            "url":"https://d.kstore.dev/download/12020/jk.bmp",
             "name": "📚｜白虾工具"
         },	
     { 
