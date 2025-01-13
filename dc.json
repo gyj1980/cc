@@ -13,7 +13,7 @@
             "name": "📚｜码点小干货" 
         },           
         { 
-            "url":"https://12020.kstore.space/jk.bmp", 
+            "url":"https://d.kstore.dev/download/12020/jk.bmp", 
             "name": "📚｜白虾工具" 
         },         
     {  
@@ -46,23 +46,9 @@
       "url":"https://123.yemays.vip/tv111888.json", 
       "name": "多仓📚｜萝卜库" 
     }, 
-     {
-
-      "url": "https://gitee.com/gyjune/ccls/raw/master/ccls.json",
-
-      "name": "多仓📚｜潺潺流水"
-
-    },
-    {
-
-      "url": "https://cdn09022024.gitlink.org.cn/api/v1/repos/gyjune/cc/raw/ccls.json?ref=main",
-
-      "name": "多仓📚｜潺潺流水gitlink"
-
-    },
     { 
 
-      "url": "https://ghproxy.cn/https://raw.githubusercontent.com/gyjune/cc/main/ccls.json", 
+      "url": "https://ghgo.xyz/https://raw.githubusercontent.com/gyjune/cc/main/ccls.json", 
 
       "name": "多仓📚｜潺潺流水github" 
 
@@ -82,9 +68,9 @@
       "url": "https://gitee.com/gyj07/jjtx/raw/main/俊俊同学.json", 
       "name": "多仓📚｜俊俊同学" 
     }, 
-   //{ 
-       //"url": "https://codeberg.org/gyj07/xbpq/raw/branch/main/xbpq.json", 
-      // "name": "多仓📚｜俊俊同学codeberg" 
+   { 
+       "url": "https://gitee.com/huasjf/tvbox/raw/main/hsjf3.json", 
+       "name": "多仓📚｜疾风劲草" 
     // }, 
     // { 
        //"url": "https://cdn09022024.gitlink.org.cn/gyjune/jjtx/raw/branch/main/xbpq.json", 
@@ -123,7 +109,7 @@
       "name": "多仓📚｜天马行空" 
     }, 
     { 
-      "url": "http://ttkx.cc:999/天天开心", 
+      "url": "http://rihou.cc:55/天天开心", 
       "name": "多仓📚｜开心官方" 
     }, 
     { 
@@ -131,11 +117,11 @@
       "name": "多仓📚｜巧姐" 
     }, 
     { 
-      "url": "https://2833.kstore.space/nzk/nzk0722.json", 
+      "url": "https://d.kstore.dev/download/2883/nzk/nzk0722.json", 
       "name": "📚｜D佬魔改" 
     }, 
     { 
-      "url": "https://4645.kstore.space/99.json", 
+      "url": "https://d.kstore.dev/download/4645/99.json", 
       "name": "多仓📚｜小鱼" 
     }, 
     { 
@@ -155,7 +141,7 @@
       "name": "多仓📚｜月光官方" 
     }, 
     { 
-      "url": "https://ghproxy.cn/https://raw.githubusercontent.com/xmbjm/hollo/refs/heads/main/omg.json", 
+      "url": "https://4708.kstore.space/omg/hollo.json", 
       "name": "📚｜拾光专线" 
     }, 
     { 
@@ -175,7 +161,7 @@
       "name": "多仓📚｜OK官方" 
     }, 
     { 
-      "url":"http://211.101.234.24:68/%E7%88%B1%E5%B0%9A.txt", 
+      "url":"https://wds.ecsxs.com/232004.css", 
       "name": "多仓📚｜春盈天下" 
     }, 
     { 
