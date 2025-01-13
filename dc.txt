@@ -1,4 +1,4 @@
-https://gh.llkk.cc/https://github.com/gyjune/cc/blob/main/dc.json{ 
+{ 
   "urls": [ 
     { 
       "url": "https://gitee.com/gyjune/xbpq/raw/main/xbpq.json", 
