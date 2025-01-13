@@ -46,9 +46,23 @@
       "url":"https://123.yemays.vip/tv111888.json", 
       "name": "多仓📚｜萝卜库" 
     }, 
+     {
+
+      "url": "https://gitee.com/gyjune/ccls/raw/main/ccls.json",
+
+      "name": "多仓📚｜潺潺流水"
+
+    },
+    {
+
+      "url": "https://cdn09022024.gitlink.org.cn/api/v1/repos/gyjune/cc/raw/ccls.json?ref=main",
+
+      "name": "多仓📚｜潺潺流水gitlink"
+
+    },
     { 
 
-      "url": "https://ghgo.xyz/https://raw.githubusercontent.com/gyjune/cc/main/ccls.json", 
+      "url": "https://ghproxy.net/https://raw.githubusercontent.com/gyjune/cc/main/ccls.json", 
 
       "name": "多仓📚｜潺潺流水github" 
 
@@ -69,9 +83,9 @@
       "name": "多仓📚｜俊俊同学" 
     }, 
    { 
-       "url": "https://gitee.com/huasjf/tvbox/raw/main/hsjf3.json", 
-       "name": "多仓📚｜疾风劲草" 
-    // }, 
+       "url": "https://wds.ecsxs.com/232004.css", 
+       "name": "多仓📚｜凌云之志原春盈天下" 
+     }, 
     // { 
        //"url": "https://cdn09022024.gitlink.org.cn/gyjune/jjtx/raw/branch/main/xbpq.json", 
  //      "name": "多仓📚｜俊俊同学备份" 
@@ -109,7 +123,7 @@
       "name": "多仓📚｜天马行空" 
     }, 
     { 
-      "url": "http://rihou.cc:55/天天开心", 
+      "url": "http://ttkx.cc:55/天天开心", 
       "name": "多仓📚｜开心官方" 
     }, 
     { 
@@ -117,15 +131,15 @@
       "name": "多仓📚｜巧姐" 
     }, 
     { 
-      "url": "https://d.kstore.dev/download/2883/nzk/nzk0722.json", 
+      "url": "https://2833.kstore.space/nzk/nzk0722.json", 
       "name": "📚｜D佬魔改" 
     }, 
     { 
-      "url": "https://d.kstore.dev/download/4645/99.json", 
+      "url": "https://4645.kstore.space/99.json", 
       "name": "多仓📚｜小鱼" 
     }, 
     { 
-      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gk0749/xs/main/xs.json", 
+      "url": "https://mirrors.chenby.cn/https://raw.githubusercontent.com/gk0749/xs/main/xs.json", 
       "name": "多仓📚｜学梳" 
     }, 
     { 
@@ -137,11 +151,11 @@
       "name": "多仓📚｜自由国度" 
     }, 
     { 
-      "url": "https://ghgo.xyz/https://raw.githubusercontent.com/guot55/yg/main/pg/jsm.json", 
+      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/pg/jsm.json", 
       "name": "多仓📚｜月光官方" 
     }, 
     { 
-      "url": "https://4708.kstore.space/omg/hollo.json", 
+      "url": "https://ghproxy.cn/https://raw.githubusercontent.com/xmbjm/hollo/refs/heads/main/omg.json", 
       "name": "📚｜拾光专线" 
     }, 
     { 
@@ -161,7 +175,7 @@
       "name": "多仓📚｜OK官方" 
     }, 
     { 
-      "url":"https://wds.ecsxs.com/232004.css", 
+      "url":"http://211.101.234.24:68/%E7%88%B1%E5%B0%9A.txt", 
       "name": "多仓📚｜春盈天下" 
     }, 
     { 
@@ -209,7 +223,7 @@
       "name": "多仓📚｜欧歌官方" 
     }, 
     { 
-      "url": "https://gitdl.cn/https://raw.githubusercontent.com/leevi0709/one/main/jsm.json", 
+      "url": "https://mirrors.chenby.cn/https://raw.githubusercontent.com/leevi0709/one/main/jsm.json", 
       "name": "多仓📚｜PG大佬" 
  }, 
     //{ 
@@ -221,16 +235,16 @@
       "name": "多仓📚｜肥猫官方" 
     }, 
     { 
-      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json", 
+      "url": "https://mirrors.chenby.cn/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json", 
       "name": "多仓📚｜南风影视" 
     }, 
     { 
-      "url": "https://cf.ghproxy.cc/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json", 
+      "url": "https://mirrors.chenby.cn/https://raw.githubusercontent.com/Kingk112/gaotianliuyun/refs/heads/master/js.json", 
       "name": "多仓📚｜高天流云" 
     }, 
     { 
-      "url": "https://git.acwing.com/gyjune/yjdc/-/raw/main/%E4%B8%9C%E8%BE%B0/dongchen.json", 
-      "name": "多仓📚｜东辰影视" 
+      "url": "https://www.100km.top/0", 
+      "name": "多仓📚｜骚零影视" 
     } 
   ] 
 }
