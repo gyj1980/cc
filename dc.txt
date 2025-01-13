@@ -23,6 +23,13 @@
             "name": "📚｜T4线路"  
 
         }, 
+{  
+
+            "url":"https://gitee.com/huasjf/tvbox/raw/main/hsjf3.json",  
+
+            "name": "📚｜疾风知劲草"  
+
+        },
     { 
 
       "url": "https://7337.kstore.space/twvip/自用测试.json", 
