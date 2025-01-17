@@ -36,7 +36,7 @@
 
     "播放列表":"<a&&</a>",
 
-    "分类url":"https://www.freeok.biz/vod-show/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
+    "分类url":"https://www.freeok.biz/show/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
 
     "分类":"电影$1#电视剧$2#动漫$4#动画电影$32",
 
