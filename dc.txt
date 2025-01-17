@@ -55,7 +55,7 @@
     }, 
      {
 
-      "url": "https://gitee.com/gyjune/ccls/raw/main/ccls.json",
+      "url": "https://gitee.com/gyjune/chan/raw/master/ccls.json",
 
       "name": "多仓📚｜潺潺流水"
 
