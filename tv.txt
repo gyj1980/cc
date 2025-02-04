@@ -100,7 +100,10 @@ CCTV-17超清,http://223.110.241.139:6610/gitv/live1/G_CCTV-17-HQ/G_CCTV-17-HQ/
 嘉佳卡通,http://223.110.241.139:6610/gitv/live1/G_JIAJIA/G_JIAJIA/
 炫动卡通,http://223.110.241.139:6610/gitv/live1/G_XUANDONG/G_XUANDONG/
 
-上海频道,#genre#
+CHC频道,#genre#
+CHC动作电影,http://180.213.174.225:9901/tsfile/live/1027_1.m3u8?key=txiptv&playlive=1&authid=0
+CHC家庭影院,http://180.213.174.225:9901/tsfile/live/1030_1.m3u8?key=txiptv&playlive=1&authid=0
+CHC电影,http://180.213.174.225:9901/tsfile/live/1029_1.m3u8?key=txiptv&playlive=1&authid=0
 
 
 浙江频道,#genre#
