@@ -1,150 +1,96 @@
-{
- "spider": "https://ghfast.top/https://raw.githubusercontent.com/vbskycn/tvbox/main/jar/MY探探.jar",
-  "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
-  "sites": [
 
-
-
-   {"key": "csp_appys_影盒","name": "影探4K","type": 3,"api": "csp_AppYsV2","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "http://cms-vip.lyyytv.cn/api.php/app/"},     
-
-
-
-
-
-{
-            "key": "哔哩音乐",
-            "name": "🎧┃音乐鉴赏",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://www.lyyytv.cn/yt/json/哔哩音乐.json"
-        },
-
-
-
-    {
-            "key": "drpy_哔哩",
-            "name": "🅱┃B站合集",
-            "type": 3,
-            "api": "http://www.lyyytv.cn/yt/api/drpy2.min.js",
-            "playerType": 1,
-            "ext": "http://www.lyyytv.cn/yt/js/B站.js"
-        },
-
-
-{
-            "key": "csp_FirstAid",
-            "name": "🚑┃急救教学",
-            "type": 3,
-            "api": "csp_FirstAid",
-            "searchable": 0,
-            "quickSearch": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 3.8
-            },
-            "gridview": "0-0-4.1"
-        },
-
-
-
-
-   {
-            "key": "少儿",
-            "name": "📚┃少儿教育",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "ext": "http://www.lyyytv.cn/yt/json/少儿教育.json"
-        },
-
-
-   {
-            "key": "小学",
-            "name": "📚┃小学课堂",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "ext": "http://www.lyyytv.cn/yt/json/小学课堂.json"
-        },
-        {
-            "key": "初中",
-            "name": "📚┃初中课堂",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "ext": "http://www.lyyytv.cn/yt/json/初中课堂.json"
-        },
-
-
-
-
-        {
-            "key": "高中",
-            "name": "📚┃高中课堂",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "ext": "http://www.lyyytv.cn/yt/json/高中课堂.json"
-        },
-
-
- {      "key": "local3",      "name": "",      "type": 3,      "api": "",      "searchable": 0,      "quickSearch": 0,      "filterable": 0    }  ],  "parses": [    {      "name": "聚合1",      "type": 3,      "url": "Demo"    },  
-
-
-
-
-
-   {   "name": "影探A",      "type": 1,      "url": "http://pan.qiaoji8.com/tvbox/gouzi.php?url=",      "ext": {        "flag": [          "qq",          "腾讯",          "qiyi",          "爱奇艺",          "奇艺",          "youku",          "优酷",          "sohu",          "搜狐",          "letv",          "乐视",          "mgtv",          "芒果",          "rx",          "ltnb",          "bilibili",          "1905",          "xigua"        ]      }    },  
-
-
-
-
-  {   "name": "影探C",      "type": 1,      "url": "https://jx.bhs6.com/api/?key=b0227c1e257c83f68ca14644aebda8c1&url=",      "ext": {        "flag": [          "qq",          "腾讯",          "qiyi",          "爱奇艺",          "奇艺",          "youku",          "优酷",          "sohu",          "搜狐",          "letv",          "乐视",          "mgtv",          "芒果",          "rx",          "ltnb",          "bilibili",          "1905",          "xigua"        ]      }    },  
-
-
-
-
-
-
-  {   "name": "影探E",      "type": 1,      "url": "http://jf.yingshidao.cn/api/?key=oovDE5yLVzOj7bFD2i&url=",      "ext": {        "flag": [          "qq",          "腾讯",          "qiyi",          "爱奇艺",          "奇艺",          "youku",          "优酷",          "sohu",          "搜狐",          "letv",          "乐视",          "mgtv",          "芒果",          "rx",          "ltnb",          "bilibili",          "1905",          "xigua"        ]      }    },  
-
-
-
-
-  {   "name": "影探F",      "type": 1,      "url": "https://jx.hls.one/?url=",      "ext": {        "flag": [          "qq",          "腾讯",          "qiyi",          "爱奇艺",          "奇艺",          "youku",          "优酷",          "sohu",          "搜狐",          "letv",          "乐视",          "mgtv",          "芒果",          "rx",          "ltnb",          "bilibili",          "1905",          "xigua"        ]      }    },  
-
-
-
-
-
-  {   "name": "影探B",      "type": 1,      "url": "https://api.qljson.xyz/api/?key=e5c343a10886e360454aa6b9ce35fadf&url=",      "ext": {        "flag": [          "qq",          "腾讯",          "qiyi",          "爱奇艺",          "奇艺",          "youku",          "优酷",          "sohu",          "搜狐",          "letv",          "乐视",          "mgtv",          "芒果",          "rx",          "ltnb",          "bilibili",          "1905",          "xigua"        ]      }    },  
-
-
- {      "name": "影探D",      "type": 1,      "url": "http://jf.yingshidao.cn/api/?key=wObsAPs6A80pXdQM92&url=",      "ext": {        "flag": [          "qq",          "腾讯",          "企鹅",          "IQiYi",          "qiyi",          "爱奇艺",          "奇艺",          "youku",          "YouKu",          "优酷",          "sohu",          "SoHu",          "搜狐",          "letv",          "LeShi",          "乐视",          "imgo",          "mgtv",          "MangGuo",          "芒果",          "SLYS4k",          "BYGA",          "luanzi",          "AliS",          "dxzy",          "bilibili",          "QEYSS",          "xigua",          "西瓜视频",          "腾讯视频",          "奇艺视频",          "优酷视频",          "芒果视频",          "乐视视频"        ]      }    }  ],  "rules": [    {      "host": "*",      "rule": [        "default.365yg.com"      ]    },    {      "host": "dyxs20.com",      "rule": [        ".m3u8"      ]    },    {      "host": "www.agemys.cc",      "rule": [        "cdn-tos",        "obj/tos-cn"      ]    },    {      "host": "www.sharenice.net",      "rule": [        "http.*?/play.{0,3}\\?[^url]{2,8}=.*"      ]    },    {      "host": "www.sharenice.net",      "rule": [        "qianpailive.com",        "vid="      ]    },    {      "host": "*",      "rule": [        "douyin.com/aweme",        "video_id="      ]    },    {      "host": "*",      "rule": [        "huoshan.com",        "/item/video/"      ]    },    {      "host": "*",      "rule": [        "http((?!http).){12,}?\\.(m3u8|mp4|flv|avi|mkv|rm|wmv|mpg|m4a)\\?.*"      ]    },    {      "host": "*",      "rule": [        "http((?!http).){12,}\\.(m3u8|mp4|flv|avi|mkv|rm|wmv|mpg|m4a)"      ]    }  ],  "lives": [    {      "name": "live",      "type": 0,      "url": "http://www.lyyytv.cn/yt/live.txt",      "playerType": 1,      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",      "logo": "https://epg.112114.xyz/logo/{name}.png"    },    {      "name": "TV",      "type": 0,      "url": "https://agit.ai/fantaiying/fmm/raw/branch/main/tv/m3u/global.m3u",      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",      "logo": "https://epg.112114.xyz/logo/{name}.png"    }  ],  "flags": [    "youku",    "优酷",    "优 酷",    "优酷视频",    "qq",    "腾讯",    "腾 讯",    "腾讯视频",    "iqiyi",    "qiyi",    "奇艺",    "爱奇艺",    "爱 奇 艺",    "m1905",    "xigua",    "letv",    "leshi",    "乐视",    "乐 视",    "sohu",    "搜狐",    "搜 狐",    "搜狐视频",    "tudou",    "pptv",    "mgtv",    "芒果",    "imgo",    "芒果TV",    "芒 果 T V",    "bilibili",    "哔 哩",    "哔 哩 哔 哩"  ],  "ijk": [    {      "group": "软解码",      "options": [        {          "category": 4,          "name": "opensles",          "value": "0"        },        {          "category": 4,          "name": "overlay-format",          "value": "842225234"        },        {          "category": 4,          "name": "framedrop",          "value": "1"        },        {          "category": 4,          "name": "soundtouch",          "value": "1"        },        {          "category": 4,          "name": "start-on-prepared",          "value": "1"        },        {          "category": 1,          "name": "http-detect-range-support",          "value": "0"        },        {          "category": 1,          "name": "fflags",          "value": "fastseek"        },        {          "category": 2,          "name": "skip_loop_filter",          "value": "48"        },        {          "category": 4,          "name": "reconnect",          "value": "1"        },        {          "category": 4,          "name": "max-buffer-size",          "value": "5242880"        },        {          "category": 4,          "name": "enable-accurate-seek",          "value": "0"        },        {          "category": 4,          "name": "mediacodec",          "value": "0"        },        {          "category": 4,          "name": "mediacodec-auto-rotate",          "value": "0"        },        {          "category": 4,          "name": "mediacodec-handle-resolution-change",          "value": "0"        },        {          "category": 4,          "name": "mediacodec-hevc",          "value": "0"        },        {          "category": 1,          "name": "dns_cache_timeout",          "value": "600000000"        }      ]    },    {      "group": "硬解码",      "options": [        {          "category": 4,          "name": "opensles",          "value": "0"        },        {          "category": 4,          "name": "overlay-format",          "value": "842225234"        },        {          "category": 4,          "name": "framedrop",          "value": "1"        },        {          "category": 4,          "name": "soundtouch",          "value": "1"        },        {          "category": 4,          "name": "start-on-prepared",          "value": "1"        },        {          "category": 1,          "name": "http-detect-range-support",          "value": "0"        },        {          "category": 1,          "name": "fflags",          "value": "fastseek"        },        {          "category": 2,          "name": "skip_loop_filter",          "value": "48"        },        {          "category": 4,          "name": "reconnect",          "value": "1"        },        {          "category": 4,          "name": "max-buffer-size",          "value": "5242880"        },        {          "category": 4,          "name": "enable-accurate-seek",          "value": "0"        },        {          "category": 4,          "name": "mediacodec",          "value": "1"        },        {          "category": 4,          "name": "mediacodec-auto-rotate",          "value": "1"        },        {          "category": 4,          "name": "mediacodec-handle-resolution-change",          "value": "1"        },        {          "category": 4,          "name": "mediacodec-hevc",          "value": "1"        },        {          "category": 1,          "name": "dns_cache_timeout",          "value": "600000000"        }      ]    }  ],  "ads": [    "wan.51img1.com",    "iqiyi.hbuioo.com",    "vip.ffzyad.com",    "https://lf1-cdn-tos.bytegoofy.com/obj/tos-cn-i-dy/455ccf9e8ae744378118e4bd289288dd"  ]}
+无线新闻台,http://php.jdshipin.com/TVOD/iptv.php?id=tvbxw
+TVB娱乐新闻台,http://php.jdshipin.com/TVOD/iptv.php?id=tvbylxw
+TVB亚洲武侠,http://php.jdshipin.com/TVOD/iptv.php?id=yzwx
+无线华丽台,http://php.jdshipin.com/TVOD/iptv.php?id=huali2
+CHC影迷电影,http://php.jdshipin.com/TVOD/iptv.php?id=chcymdy
+CHC动作电影,http://php.jdshipin.com/TVOD/iptv.php?id=chcdzdy
+CHC家庭影院,http://php.jdshipin.com/TVOD/iptv.php?id=chcjtyy
+重温经典,http://php.jdshipin.com/TVOD/iptv.php?id=cwjd
+凤凰卫视频道,http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
+凤凰资讯频道,http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
+凤凰香港频备,http://php.jdshipin.com/TVOD/iptv.php?id=fhhk
+广东珠江频备,http://php.jdshipin.com/TVOD/iptv.php?id=gdzj
+广东体育频备,http://php.jdshipin.com/TVOD/iptv.php?id=gdty
+凤凰中文,http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
+凤凰资讯,http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
+凤凰卫视,http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
+凤凰资讯,http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
+翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=fct
+TVB无线新闻,http://php.jdshipin.com/TVOD/iptv.php?id=wxxwt
+千禧经典,http://php.jdshipin.com/TVOD/iptv.php?id=tvbc
+翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=fct
+翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=fct3
+翡翠台北美版(TVB J1),http://php.jdshipin.com/TVOD/iptv.php?id=j1
+TVB Plus,http://php.jdshipin.com/TVOD/iptv.php?id=j2
+VIUTV,http://php.jdshipin.com/TVOD/iptv.php?id=viutv
+HOY TV,http://php.jdshipin.com/TVOD/iptv.php?id=hoytv
+凤凰中文,http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
+凤凰资讯,http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
+重温经典,http://php.jdshipin.com/TVOD/iptv.php?id=cwjd
+澳视澳门,http://php.jdshipin.com/TVOD/iptv.php?id=asam
+澳视卫星,http://php.jdshipin.com/TVOD/iptv.php?id=as
+翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=fct3
+翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=fct
+TVB无线华丽,http://php.jdshipin.com/TVOD/iptv.php?id=huali
+TVB星河,http://php.jdshipin.com/TVOD/iptv.php?id=xinghe
+TVB Plus,http://php.jdshipin.com/TVOD/iptv.php?id=j2
+TVB千禧经典,http://php.jdshipin.com/TVOD/iptv.php?id=tvbc
+VIUTV,http://php.jdshipin.com/TVOD/iptv.php?id=viutv
+HOY 77,http://php.jdshipin.com/TVOD/iptv.php?id=hoytv
+凤凰资讯,http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
+广东珠江,http://php.jdshipin.com/TVOD/iptv.php?id=gdzj
+广东体育,http://php.jdshipin.com/TVOD/iptv.php?id=gdty
+凤凰卫视,http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
+凤凰资讯,http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
+凤凰香港,http://php.jdshipin.com/TVOD/iptv.php?id=fhhk
+CHC影迷电影,http://php.jdshipin.com/TVOD/iptv.php?id=chcymdy
+CHC动作电影,http://php.jdshipin.com/TVOD/iptv.php?id=chcdzdy
+CHC家庭影院,http://php.jdshipin.com/TVOD/iptv.php?id=chcjtyy
+重温经典,http://php.jdshipin.com/TVOD/iptv.php?id=cwjd
+无线新闻,http://php.jdshipin.com/TVOD/iptv.php?id=tvbxw
+无线新闻.备用,http://php.jdshipin.com/TVOD/iptv.php?id=wxxwt
+华丽翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=huali
+华丽翡翠台.备用,http://php.jdshipin.com/TVOD/iptv.php?id=huali2
+TVB星河,http://php.jdshipin.com/TVOD/iptv.php?id=tvbxh
+TVB生活台,http://php.jdshipin.com/TVOD/iptv.php?id=tvbsh
+TVB亚洲武侠,http://php.jdshipin.com/TVOD/iptv.php?id=yzwx
+TVB娱乐新闻台,http://php.jdshipin.com/TVOD/iptv.php?id=tvbylxw
+CHC影迷电影,http://php.jdshipin.com/TVOD/iptv.php?id=chcymdy
+CHC动作电影,http://php.jdshipin.com/TVOD/iptv.php?id=chcdzdy
+CHC家庭影院,http://php.jdshipin.com/TVOD/iptv.php?id=chcjtyy
+重温经典,http://php.jdshipin.com/TVOD/iptv.php?id=cwjd
+重温经典,http://php.jdshipin.com/TVOD/iptv.php?id=cwjd
+翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=fct3
+翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=fct
+翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=fct4
+翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=fct3$LR•IPV4『线路4』
+TVB无线华丽,http://php.jdshipin.com/TVOD/iptv.php?id=huali
+TVB星河,http://php.jdshipin.com/TVOD/iptv.php?id=xinghe
+TVB Plus,http://php.jdshipin.com/TVOD/iptv.php?id=j2
+TVB千禧经典,http://php.jdshipin.com/TVOD/iptv.php?id=tvbc
+VIUTV,http://php.jdshipin.com/TVOD/iptv.php?id=viutv
+HOY 77,http://php.jdshipin.com/TVOD/iptv.php?id=hoytv
+凤凰中文,http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
+凤凰资讯,http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
+凤凰卫视,http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
+CCTV1,http://php.jdshipin.com/TVOD/iptv.php?id=rthk33
+凤凰卫视,http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
+广西卫视,http://php.jdshipin.com/TVOD/hljyd.php?id=3221226549
+甘肃卫视,http://php.jdshipin.com/TVOD/hljyd.php?id=3221225633
+凤凰中文,http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
+凤凰中文,http://php.jdshipin.com/TVOD/iptv.php?id=fhzw2
+凤凰资讯,http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
+翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=fct
+翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=fct3
+翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=huali2
+翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=fct4
+TVB明珠,http://php.jdshipin.com/TVOD/iptv.php?id=mzt2
+TVB星河,http://php.jdshipin.com/TVOD/iptv.php?id=xinghe
+TVB星河,http://php.jdshipin.com/TVOD/iptv.php?id=tvbxh
+TVB无线新闻,http://php.jdshipin.com/TVOD/iptv.php?id=wxxwt
+TVB娱乐新闻,http://php.jdshipin.com/TVOD/iptv.php?id=tvbylxw
+TVB千禧经典,http://php.jdshipin.com/TVOD/iptv.php?id=tvbc
+VIU,http://php.jdshipin.com/TVOD/iptv.php?id=viutv
+VIU,http://php.jdshipin.com/TVOD/iptv.php?id=viutv2
+TVB J2,http://php.jdshipin.com/TVOD/iptv.php?id=j2
