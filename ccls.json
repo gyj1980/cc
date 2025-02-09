@@ -23,20 +23,7 @@
       "quickSearch": 0,
       "filterable": 0
     },
-{
-          "key": "伪freeok",
-          "name": "🦩freeok┃T爽剧",
-          "type": 3,
-          "api": "csp_XBPQ",
-          "ext": {
-         "线路数组":"module-tab-item tab-item&&</div>", 
-"线路标题":"data-dropdown-value=\"&&\"+【  +共+<small>&&</small>+集】",
-            "分类url": "https://www.jsard.com/vodshow/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
-            "分类数组": "<li class=\"swiper-slide navbar-item&&</li>",
-  "分类标题":"title=\"&&\"",
-            "分类ID": "href=\"/vodtype/&&.html\""
-          }
-        },
+
  {
       "key": "潺潺直播",
       "name": "📺潺潺|T直播",
@@ -70,6 +57,20 @@
 "年份":"2024-2022"
 }
 },
+	{
+          "key": "伪freeok",
+          "name": "🦩freeok┃T爽剧",
+          "type": 3,
+          "api": "csp_XBPQ",
+          "ext": {
+         "线路数组":"module-tab-item tab-item&&</div>", 
+"线路标题":"data-dropdown-value=\"&&\"+【  +共+<small>&&</small>+集】",
+            "分类url": "https://www.jsard.com/vodshow/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
+            "分类数组": "<li class=\"swiper-slide navbar-item&&</li>",
+  "分类标题":"title=\"&&\"",
+            "分类ID": "href=\"/vodtype/&&.html\""
+          }
+        },
 {
 	  "key": "秋霞",
 	  "name": "🍎秋霞┃T爽剧",
@@ -676,7 +677,8 @@
   
 "分类url": "https://www.bahaotv.com/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
 "分类": "电影$movies#电视剧$tvseries#动漫$anime"
-   
+   
+
     }
         },
 
