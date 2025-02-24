@@ -57,6 +57,17 @@
 "年份":"2024-2022"
 }
 },
+{
+      "key": "aikan",
+      "name": "😁爱看|T爽剧",
+      "type": 3,
+     "api": "csp_XBPQ",
+"ext": {
+
+"分类url":"https://www.akysw.pro/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
+"分类": "电影$1#剧集$2#动漫$4#综艺$3"
+}
+},
 	{
           "key": "伪freeok",
           "name": "🦩freeok┃T爽剧",
