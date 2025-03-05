@@ -2,7 +2,7 @@
 "spider": "https://gitee.com/gyjune/jar/raw/master/fty.jar",
 "wallpaper": "http://我不是.肥猫.love:63/ppic/feimao.php",
 "warningText": "潺潺流水接口完全免费，切勿付费购买！",
-"lives":[{"url":"https://8177.kstore.space/tvb/jstv.json","epg":"https://live.fanmingming.cn/e.xml","logo":"https://live.fanmingming.cn/tv/{name}.png","type": 0,"name":"官网直播"}
+"lives":[{"url":"https://8177.kstore.space/tvb/jstv.json","epg":"http://epg.51zmt.top:8000/e.xml.gz","logo":"https://live.fanmingming.cn/tv/{name}.png","type": 0,"name":"官网直播"}
 
 ],
 "sites": [
