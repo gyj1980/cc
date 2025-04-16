@@ -1,5 +1,5 @@
 {
-"spider": "https://gitee.com/gyjune/jar/raw/master/fty.jar",
+""spider": "https://jihulab.com/yoursmile66/TVBox/-/raw/master/Yoursmile.jar;md5;c6aaf6a9498e1e1d07126779c687bdd8",
 "wallpaper": "http://我不是.肥猫.love:63/ppic/feimao.php",
 "warningText": "潺潺流水接口完全免费，切勿付费购买！",
 "lives":[{"url":"https://8177.kstore.space/tvb/jstv.json","epg":"https://8177.kstore.space/all.xml","logo":"https://live.fanmingming.cn/tv/{name}.png","type": 0,"name":"官网直播"},{"url":"http://aktv.space/live.m3u","epg":"https://8177.kstore.space/all.xml","logo":"https://live.fanmingming.cn/tv/{name}.png","type": 0,"name":"AKTV"}
@@ -17,15 +17,13 @@
 //"ext": "https://ghgo.xyz/https://raw.githubusercontent.com/gyjune/cc/main/lib/douban.js"
 //},
 
-    {
-      "key": "豆豆",
-      "name": "潺潺流水 不要相信片中广告注意诈骗风险",
-      "type": 3,
-      "api": "csp_DouDou",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
-    },
+   {"key":"csp_DouBan",
+"name":"潺潺流水┃本接口免费禁止贩卖",
+"type":3,
+"api":"csp_DouBan",
+"searchable":0,
+"filterable":1,
+"changeable":1},
 
  {
       "key": "潺潺直播",
