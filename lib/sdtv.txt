@@ -1,9 +1,9 @@
 [
 
-{"name":"俊俊直播","url":"https://ghproxy.cn/https://raw.githubusercontent.com/gyjune/cc/refs/heads/main/tv.txt&&&https://gitee.com/gyjune/xbpq/raw/main/1.jpg"},
-{"name":"开心直播","url":"http://kxrj.site:55/lib/kx2024.txt&&&https://gitee.com/gyjune/xbpq/raw/main/1.jpg"},
-{"name":"AKTV港台","url":"http://aktv.top/live.m3u&&&https://gitee.com/gyjune/xbpq/raw/main/1.jpg"},
-{"name":"范明明","url":"https://ghproxy.cn/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u&&&https://gitee.com/gyjune/xbpq/raw/main/1.jpg"}
+{"name":"俊俊直播","url":"https://ghproxy.cn/https://raw.githubusercontent.com/gyjune/cc/main/tv.txt&&&https://gitee.com/gyjune/xbpq/raw/main/1.jpg"},
+{"name":"开心直播","url":"http://rihou.cc:55/gggg.nzk&&&https://gitee.com/gyjune/xbpq/raw/main/1.jpg"},
+{"name":"AKTV港台","url":"http://aktv.space/live.m3u&&&https://gitee.com/gyjune/xbpq/raw/main/1.jpg"},
+{"name":"范明明","url":"https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u&&&https://gitee.com/gyjune/xbpq/raw/main/1.jpg"}
 
 
 
