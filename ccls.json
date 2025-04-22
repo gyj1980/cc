@@ -899,9 +899,9 @@
 "type": 3,
 "api": "csp_XBPQ",
 "ext": {
-
-"线路数组": "<div class=\"swiper-slide source-swiper-slide&&</div>",
-"线路标题": "source-item-label\">&&</span>",
+"标题":"<div class=\"v-item-title\">&&</div>",   
+"线路数组":"class=\"swiper-slide source-swiper-slide&&</div>",
+"线路标题":"source-item-label\">&&</span>",
 "导演":"导演:</div>&&</div>",
 "演员":"演员:</div>&&</div>",
 "简介": " <div class=\"detail-desc\">&&</div>",
