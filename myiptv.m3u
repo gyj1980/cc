@@ -69,11 +69,11 @@ http://223.110.241.139:6610/gitv/live1/G_NJSB/G_NJSB/
 http://223.110.241.139:6610/gitv/live1/G_NJSE/G_NJSE/
 #EXTINF:-1,tvg-id="无锡新闻综合" tvg-name="无锡新闻综合" tvg-logo="https://epg.v1.mk/logo/无锡新闻综合.png" group-title="江苏",无锡新闻
 http://223.110.241.139:6610/gitv/live1/G_WXXW/G_WXXW/
-#EXTINF:-1,tvg-id="四川盐亭" tvg-name="四川盐亭" tvg-logo="https://epg.v1.mk/logo/四川盐亭.png" group-title="江苏",盐城1
+#EXTINF:-1,tvg-id="四川盐亭" tvg-name="四川盐亭" tvg-logo="https://git.acwing.com/gyjune/cc/-/raw/main/yc.jpg" group-title="江苏",盐城1
 http://ott.mobaibox.com/PLTV/3/224/3221228435/index.m3u8
-#EXTINF:-1,tvg-id="四川盐亭" tvg-name="四川盐亭" tvg-logo="https://epg.v1.mk/logo/四川盐亭.png" group-title="江苏",盐城2
+#EXTINF:-1,tvg-id="四川盐亭" tvg-name="四川盐亭" tvg-logo="https://git.acwing.com/gyjune/cc/-/raw/main/yc.jpg" group-title="江苏",盐城2
 http://ott.mobaibox.com/PLTV/3/224/3221228433/index.m3u8
-#EXTINF:-1,tvg-id="四川盐亭" tvg-name="四川盐亭" tvg-logo="https://epg.v1.mk/logo/四川盐亭.png" group-title="江苏",盐城3
+#EXTINF:-1,tvg-id="江苏盐城" tvg-name="四川江苏盐城" tvg-logo="https://git.acwing.com/gyjune/cc/-/raw/main/yc.jpg" group-title="江苏",盐城3
 http://ott.mobaibox.com/PLTV/3/224/3221228436/index.m3u8
 #EXTINF:-1,tvg-id="大丰电视台" tvg-name="大丰电视台" tvg-logo="https://epg.v1.mk/logo/大丰电视台.png" group-title="江苏",大丰综合频道
 http://dafeng-tv-hls.cm.jstv.com/dafeng-tv/dafengyt.m3u8?zjiangsd
