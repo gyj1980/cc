@@ -1,8 +1,0 @@
-江苏卫视,http://8.138.7.223/tv/jstv.php?id=jsws
-江苏影视,http://8.138.7.223/tv/jstv.php?id=jsys
-江苏综艺,http://8.138.7.223/tv/jstv.php?id=jszy
-江苏体育,http://8.138.7.223/tv/jstv.php?id=jsty
-江苏新闻,http://8.138.7.223/tv/jstv.php?id=jsxw
-江苏教育,http://8.138.7.223/tv/jstv.php?id=jsjy
-江苏城市,http://8.138.7.223/tv/jstv.php?id=jscs
-江苏优漫,http://8.138.7.223/tv/jstv.php?id=jsym
