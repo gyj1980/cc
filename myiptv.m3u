@@ -105,7 +105,7 @@ http://223.110.241.139:6610/gitv/live1/LYWS/LYWS/
 http://223.110.241.139:6610/gitv/live1/G_CHONGQING/G_CHONGQING/
 #EXTINF:-1,tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://epg.v1.mk/logo/四川卫视.png" group-title="卫视",四川卫视
 http://223.110.241.139:6610/gitv/live1/SCWS/SCWS/
-#EXTINF:-1,tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://epg.v1.mk/logo/河南卫视.png" group-title="河南",河南卫视
+#EXTINF:-1,tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://epg.v1.mk/logo/河南卫视.png" group-title="卫视",河南卫视
 http://223.110.241.139:6610/gitv/live1/HENAN/HENAN/
 #EXTINF:-1,tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://epg.v1.mk/logo/东南卫视.png" group-title="卫视",东南卫视
 http://223.110.241.139:6610/gitv/live1/DNWS/DNWS/
