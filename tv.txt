@@ -72,7 +72,9 @@ CCTV-17超清,http://223.110.241.139:6610/gitv/live1/G_CCTV-17-HQ/G_CCTV-17-HQ/
 南京少儿,http://223.110.241.139:6610/gitv/live1/G_NJSE/G_NJSE/
 无锡新闻,http://223.110.241.139:6610/gitv/live1/G_WXXW/G_WXXW/
 江苏体育,http://[2409:8087:2001:20:2800:0:df6e:eb15]/wh7f454c46tw4122585160_1534269250/ott.mobaibox.com/PLTV/3/224/3221225935/index.m3u8?icpid=3&RTS=1669268931&from=40&popid=40&hms_devid=2115&prioritypopid=40&vqe=3
+大丰一台,http://dafeng-tv-hls.cm.jstv.com/dafeng-tv/dafengyt.m3u8?zjiangsd
 
+大丰二台,http://dafeng-tv-hls.cm.jstv.com/dafeng-tv/dafenget.m3u8?zjiangsd
 卫视频道,#genre#
 
 浙江卫视,http://223.110.241.139:6610/gitv/live1/G_ZHEJIANG-HQ/G_ZHEJIANG-HQ/
