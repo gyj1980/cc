@@ -477,7 +477,7 @@ http://223.110.254.137:6610/cntv/live1/jiatingjc/jiatingjc
 http://223.110.254.137:6610/cntv/live1/saishijx/saishijx
 #EXTINF:-1,tvg-id="NewTV精品纪录" tvg-name="NewTV精品纪录" tvg-logo="https://epg.v1.mk/logo/NewTV精品纪录.png" group-title="NewTV",NewTV精品纪录
 http://223.110.254.137:6610/cntv/live1/jingpinjl/jingpinjl
-#EXTINF:-1,tvg-id="NewTVCJDY" tvg-name="NewTVCJDY" tvg-logo="https://epg.v1.mk/logo/NewTVCJDY.png" group-title="NewTV",NewTV搏击
+#EXTINF:-1,tvg-id="NewTV搏击" tvg-name="NewTV搏击" tvg-logo="https://epg.v1.mk/logo/NewTVCJDY.png" group-title="NewTV",NewTV搏击
 http://223.110.254.137:6610/cntv/live1/SD-1500k-576P-bokesen/SD-1500k-576P-bokesen
 #EXTINF:-1,tvg-id="NewTV中国功夫" tvg-name="NewTV中国功夫" tvg-logo="https://epg.v1.mk/logo/NewTV中国功夫.png" group-title="NewTV",NewTV中国功夫
 http://223.110.254.137:6610/cntv/live1/SD-1500k-576P-gzkongfu/SD-1500k-576P-gzkongfu
