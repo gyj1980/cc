@@ -27,7 +27,7 @@
 
  {
       "key": "潺潺直播",
-      "name": "📺潺潺|T直播",
+      "name": "📺潺潺流水|T直播",
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/gyjune/cc/main/lib/sdtv.js",
       "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/gyjune/cc/main/lib/sdtv.txt"
