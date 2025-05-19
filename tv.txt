@@ -30,13 +30,7 @@ CCTV-17超清,http://223.110.241.139:6610/gitv/live1/G_CCTV-17-HQ/G_CCTV-17-HQ/
 
 江苏频道,#genre#
 
-江苏卫视,http://8.138.7.223/tv/jstv.php?id=jsws
-江苏影视,http://8.138.7.223/tv/jstv.php?id=jsys
-江苏综艺,http://8.138.7.223/tv/jstv.php?id=jszy
-江苏体育,http://8.138.7.223/tv/jstv.php?id=jsty
-江苏新闻,http://8.138.7.223/tv/jstv.php?id=jsxw
-江苏教育,http://8.138.7.223/tv/jstv.php?id=jsjy
-江苏城市,http://8.138.7.223/tv/jstv.php?id=jscs
+
 江苏卫视,http://223.110.241.139:6610/gitv/live1/G_JIANGSU-CQ/G_JIANGSU-CQ/
 江苏教育,http://223.110.241.139:6610/gitv/live1/G_JSJY/G_JSJY/
 江苏城市,http://223.110.241.139:6610/gitv/live1/G_JSCS/G_JSCS/
