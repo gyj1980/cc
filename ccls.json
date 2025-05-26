@@ -48,6 +48,19 @@
 "年份":"2024-2022"
 }
 },
+{ "key": "樱花",
+			  "name": "樱花┃T爽剧",
+			  "type": 3,          
+			  "api": "csp_XBPQ",
+			  "ext": {
+							         
+						 "线路数组":"module-tab-item tab-item&&</div>",
+			  "线路标题":"<span>&&</small>[替换:</span><small>>>共]+集",
+			
+			  "分类url":"https://www.mydangao.com/vodshow/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
+			       
+			   "分类": "电影$dianying#剧集$dsj#动漫$dongman#综艺$zongyi#短剧$shuangwenduanju" }
+			  },     
 {
       "key": "aikan",
       "name": "😁爱看|T爽剧",
