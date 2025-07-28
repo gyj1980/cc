@@ -627,6 +627,21 @@ http://ott.mobaibox.com/PLTV/3/224/3221228193/index.m3u8
 http://ott.mobaibox.com/PLTV/3/224/3221228234/index.m3u8
 #EXTINF:-1 group-title="数字高清" tvg-logo="https://live.fanmingming.com/tv/咪咕视频 .png",咪咕视频
 http://ott.mobaibox.com/PLTV/3/224/3221227529/index.m3u8
+#EXTINF:-1  tvg-id="江苏体育休闲" tvg-name="江苏体育休闲" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/江苏体育休闲.png" group-title="江苏高清",江苏体育休闲
+http://ott.mobaibox.com/PLTV/3/224/3221225935/index.m3u8$576
+#EXTINF:-1 tvg-id="江苏公共新闻" tvg-name="江苏公共新闻" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/江苏公共新闻.png" group-title="江苏高清",江苏新闻
+http://ott.mobaibox.com/PLTV/3/224/3221225925/index.m3u8$576
+#EXTINF:-1 tvg-id="江苏城市" tvg-name="江苏城市" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/江苏城市.png" group-title="江苏高清",江苏城市
+http://ott.mobaibox.com/PLTV/3/224/3221225929/index.m3u8$5
+#EXTINF:-1 tvg-id="江苏影视" tvg-name="江苏影视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/江苏影视.png" group-title="江苏高清",江苏影视
+http://ott.mobaibox.com/PLTV/3/224/3221225937/index.m3u8$576
+#EXTINF:-1 tvg-id="江苏教育" tvg-name="江苏教育" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/江苏教育.png" group-title="江苏高清",江苏教育
+http://ott.mobaibox.com/PLTV/3/224/3221225923/index.m3u8$576
+#EXTINF:-1 tvg-id="江苏综艺" tvg-name="江苏综艺" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/江苏综艺.png" group-title="江苏高清",江苏综艺
+http://ott.mobaibox.com/PLTV/3/224/3221225931/index.m3u8$576
+#EXTINF:-1 tvg-id="江苏优漫卡通" tvg-name="江苏优漫卡通" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/江苏优漫卡通.png" group-title="江苏高清",江苏优漫卡通
+http://ott.mobaibox.com/PLTV/3/224/3221227577/index.m3u8$3.5M576
+http://ott.mobaibox.com/PLTV/3/224/3221225933/index.m3u8$576
 #EXTINF:-1 group-title="江苏高清" tvg-logo="https://live.fanmingming.com/tv/南京信息 .png",南京信息
 http://ott.mobaibox.com/PLTV/3/224/3221227730/index.m3u8
 #EXTINF:-1 group-title="江苏高清" tvg-logo="https://live.fanmingming.com/tv/南京娱乐 .png",南京娱乐
