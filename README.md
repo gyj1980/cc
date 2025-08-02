@@ -1,4 +1,4 @@
-中国移动 https://gh-proxy.com/raw.githubusercontent.com/gyjune/cc/main/zgyd.txt
+2中国移动 https://gh-proxy.com/raw.githubusercontent.com/gyjune/cc/main/zgyd.txt
 
 自建 https://gh-proxy.com/raw.githubusercontent.com/gyjune/cc/main/tv.txt
 
@@ -13,3 +13,5 @@ https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/0a751c0
 
 
 https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/87b21c98428fe0b6/jsmobile.txt
+
+https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/e9ca3cb809e4f30d/tv.txt
