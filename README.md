@@ -1,5 +1,5 @@
 ###  下载地址
- - [TVbox开源版](https://wws.lanzouv.com/b03j4ul#999)
+ 
 - [中国移动](https://gh-proxy.com/raw.githubusercontent.com/gyjune/cc/main/zgyd.txt#999)
 
 
