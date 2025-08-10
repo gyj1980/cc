@@ -325,6 +325,7 @@ NewTV热播精选,http://ott.mobaibox.com/PLTV/3/224/3221227512/index.m3u8
 哒啵赛事,http://ott.mobaibox.com/PLTV/3/224/3221225539/index.m3u8
 数字高清,#genre#
 睛彩青少,http://ott.mobaibox.com/PLTV/3/224/3221228427/index.m3u8
+晴彩竞技,http://ott.mobaibox.com/PLTV/3/224/3221228206/index.m3u8
 睛彩竞技,http://ott.mobaibox.com/PLTV/4/224/3221228679/index.m3u8
 睛彩广场舞,http://ott.mobaibox.com/PLTV/4/224/3221228231/index.m3u8
 睛彩篮球,http://ott.mobaibox.com/PLTV/4/224/3221228234/index.m3u8
