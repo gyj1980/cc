@@ -31,6 +31,19 @@
 铜山 2,http://ott.mobaibox.com/PLTV/3/224/3221228081/index.m3u8
 铜山 1,http://ott.mobaibox.com/PLTV/3/224/3221228152/index.m3u8
 
+江苏城市,http://ott.mobaibox.com/PLTV/3/224/3221228734/index.m3u8  
+
+江苏新闻,http://ott.mobaibox.com/PLTV/3/224/3221228743/index.m3u8  
+
+江苏综艺,http://ott.mobaibox.com/PLTV/3/224/3221228731/index.m3u8  
+
+江苏影视,http://ott.mobaibox.com/PLTV/3/224/3221228728/index.m3u8  
+
+江苏教育,http://ott.mobaibox.com/PLTV/3/224/3221228613/index.m3u8  
+
+江苏体育•休闲,  
+http://ott.mobaibox.com/PLTV/3/224/3221228746/index.m3u8
+
 南京影视,http://ott.mobaibox.com/PLTV/3/224/3221227719/index.m3u8$卫视
 南京教科,http://ott.mobaibox.com/PLTV/3/224/3221227194/index.m3u8$卫视
 南京十八,http://ott.mobaibox.com/PLTV/3/224/3221227178/index.m3u8$卫视
