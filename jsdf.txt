@@ -62,11 +62,10 @@
 睢宁综合,http://ott.mobaibox.com/PLTV/3/224/3221227706/index.m3u8
 睢宁资讯,http://ott.mobaibox.com/PLTV/3/224/3221227712/index.m3u8
 赣榆,http://ott.mobaibox.com/PLTV/3/224/3221228317/index.m3u8
-连云港公共 2M1080,http://ott.mobaibox.com/PLTV/3/224/3221227819/index.m3u8
-连云港新闻综合 2M1080,http://ott.mobaibox.com/PLTV/3/224/3221227758/index.m3u8
-邳州综合,http://ott.mobaibox.com/PLTV/3/224/3221227576/index.m3u8
+
+
 镇江新闻综合,http://ott.mobaibox.com/PLTV/3/224/3221228246/index.m3u8
-高淳新闻,http://ott.mobaibox.com/PLTV/3/224/3221227870/index.m3u8
+
 盐城1,http://ott.mobaibox.com/PLTV/3/224/3221228435/index.m3u8
 盐城2,http://ott.mobaibox.com/PLTV/3/224/3221228433/index.m3u8
 盐城3,http://ott.mobaibox.com/PLTV/3/224/3221228436/index.m3u8
