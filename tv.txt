@@ -127,7 +127,7 @@ Newtv古装剧场,http://223.110.254.137:6610/cntv/live1/guzhuangjc/guzhuangjc
 CHC频道,#genre#
 CHC动作电影,http://113.195.7.46:9901/tsfile/live/1027_1.m3u8?key=txiptv&playlive=1&authid=0
 CHC家庭影院,http://113.195.7.46:9901/tsfile/live/1046_1.m3u8?key=txiptv&playlive=0&authid=0
-CHC电影,http://113.195.7.46:9901/tsfile/live/1029_1.m3u8?key=txiptv&playlive=1&authid=0
+CHC影迷电影,http://113.195.7.46:9901/tsfile/live/1039_1.m3u8?key=txiptv&playlive=1&authid=0
 
 
 浙江频道,#genre#
