@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数字时钟与日历</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        body {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f4f8;
+        }
+        .container {
+            text-align: center;
+            padding: 2rem;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        #clock {
+            font-size: 4rem;
+            font-weight: bold;
+            color: #2d3748;
+            margin-bottom: 1rem;
+        }
+        #calendar {
+            font-size: 1.5rem;
+            color: #4a5568;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="clock"></div>
+        <div id="calendar"></div>
+    </div>
+
+    <script>
+        // 星期和月份的中文映射
+        const weekDays = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'];
+        const months = ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'];
+
+        // 更新时间和日期的函数
+        function updateTimeAndDate() {
+            const now = new Date();
+            
+            // 处理时钟（时、分、秒补零）
+            const hours = String(now.getHours()).padStart(2, '0');
+            const minutes = String(now.getMinutes()).padStart(2, '0');
+            const seconds = String(now.getSeconds()).padStart(2, '0');
+            document.getElementById('clock').textContent = `${hours}:${minutes}:${seconds}`;
+
+            // 处理日历（年、月、日、星期）
+            const year = now.getFullYear();
+            const month = months[now.getMonth()];
+            const date = now.getDate();
+            const weekDay = weekDays[now.getDay()];
+            document.getElementById('calendar').textContent = `${year}年 ${month} ${date}日 ${weekDay}`;
+        }
+
+        // 初始调用一次，避免页面加载时的延迟
+        updateTimeAndDate();
+        // 每秒更新一次
+        setInterval(updateTimeAndDate, 1000);
+    </script>
+</body>
+</html>
