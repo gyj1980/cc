@@ -1,147 +1,288 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="zh-CN">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TVBox的AES-128-CBC加密</title>
-    <script src="https://cdn.jsdelivr.net/npm/vue@3/dist/vue.global.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/crypto-js@4.2.0/crypto-js.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+    <title>加密</title>
+    <link rel="stylesheet" href="https://unpkg.com/element-plus/dist/index.css">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://unpkg.com/element-plus"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <style>
-        .wrapper {
-            padding: 32px;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
-        .wrapper .inner {
+
+        body {
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+            color: #333;
+            min-height: 100vh;
+            padding: 20px;
+            position: relative;
+            padding-bottom: 100px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            color: white;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .nav-btn {
+            padding: 12px 25px;
+            background: rgba(255, 255, 255, 0.2);
+            border: none;
+            border-radius: 50px;
+            color: white;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .nav-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+
+        .page {
+            display: none;
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            min-height: 600px;
+        }
+
+        .active {
+            display: block;
+            animation: fadeIn 0.5s ease;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* 加密工具页面样式 */
+        .encrypt-wrapper {
+            padding: 20px;
+        }
+
+        .encrypt-inner {
             display: flex;
             margin-top: 24px;
+            flex-wrap: wrap;
         }
-        .wrapper .textarea-group {
+
+        .encrypt-textarea-group {
             flex: 3;
+            min-width: 300px;
         }
-        .wrapper .input-group {
+
+        .encrypt-input-group {
             flex: 1;
             margin: 0 24px;
+            min-width: 250px;
         }
-        .wrapper .input-group .el-input,
-        .wrapper .input-group .el-checkbox {
+
+        .encrypt-input-group .el-input,
+        .encrypt-input-group .el-checkbox {
             margin-bottom: 24px;
         }
-        .wrapper .input-group .btn-group {
+
+        .encrypt-input-group .btn-group {
             display: flex;
             justify-content: space-between;
             margin-bottom: 24px;
+            flex-wrap: wrap;
         }
-        .wrapper .input-group .btn-group .el-button {
-            width: 80px;
-            padding: 8px 12px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            color: white;
+
+        .encrypt-input-group .btn-group .el-button {
+            width: 120px;
+            margin-bottom: 10px;
         }
-        .el-button--primary {
-            background-color: #409eff;
-        }
-        .el-button--success {
-            background-color: #67c23a;
-        }
-        .wrapper .input-group .btn-group .upload {
+
+        .encrypt-input-group .btn-group .upload {
             margin-right: 12px;
         }
-        .el-textarea__inner {
+
+        textarea {
             width: 100%;
-            height: 400px;
-            padding: 8px;
-            border: 1px solid #dcdfe6;
-            border-radius: 4px;
-            resize: none;
+            min-height: 300px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 14px;
+            resize: vertical;
         }
-        .el-input__inner {
+
+        input,
+        select {
             width: 100%;
-            padding: 8px;
-            border: 1px solid #dcdfe6;
-            border-radius: 4px;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-bottom: 15px;
         }
-        .el-input.is-disabled .el-input__inner {
-            background-color: #f5f7fa;
-            cursor: not-allowed;
+
+        button {
+            padding: 12px 20px;
+            background: #6e8efb;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s;
         }
-        .el-select {
-            width: 100%;
-            margin-bottom: 24px;
+
+        button:hover {
+            background: #5a7de3;
         }
-        .el-select .el-input {
-            margin-bottom: 0;
+
+        /* 底部链接样式 */
+        .footer-links {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 15px 0;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+            z-index: 100;
+        }
+
+        .footer-link {
+            color: #6e8efb;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 8px 16px;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .footer-link:hover {
+            background: rgba(110, 142, 251, 0.1);
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 768px) {
+            .encrypt-inner {
+                flex-direction: column;
+            }
+
+            .encrypt-input-group {
+                margin: 20px 0;
+            }
+
+            .footer-links {
+                flex-direction: column;
+                gap: 10px;
+                padding: 10px 0;
+            }
         }
     </style>
 </head>
+
 <body>
-    <div id="app" class="wrapper">
-        <h2>TVBox的AES-128-CBC加密</h2>
-        <div class="inner">
-            <!-- 输入文本域 -->
-            <div class="textarea-group">
-                <textarea class="el-textarea__inner" v-model="jsonData" rows="26" placeholder="请输入需要加密/解密的内容"></textarea>
-            </div>
+    <div class="container">
+        <header>
+            <h1>加密工具</h1>
+        </header>
 
-            <!-- 控制区域 -->
-            <div class="input-group">
-                <!-- 加密/解密选择 -->
-                <div class="el-select">
-                    <select class="el-input__inner" v-model="selectValue" @change="handleSelectChange">
-                        <option value="1">加密</option>
-                        <option value="0">解密</option>
-                    </select>
+        <div class="nav">
+            <button class="nav-btn" onclick="showPage('encrypt-page')">加密工具</button>
+        </div>
+
+        <div id="encrypt-page" class="page active">
+            <div class="encrypt-wrapper">
+                <h2>TVBox的AES-128-CBC加密</h2>
+                <div class="encrypt-inner">
+                    <div class="encrypt-textarea-group">
+                        <textarea v-model="jsonData" placeholder="请输入要加密或解密的内容"></textarea>
+                    </div>
+                    <div class="encrypt-input-group">
+                        <select v-model="selectValue">
+                            <option value="1">加密</option>
+                            <option value="0">解密</option>
+                        </select>
+
+                        <input v-model="key" maxlength="16" type="text" placeholder="KEY/密码">
+
+                        <input v-model="iv" maxlength="13" type="text" placeholder="IV/向量" disabled>
+
+                        <div class="btn-group">
+                            <button @click="handleUploadClick">上传文件</button>
+                            <input type="file" id="fileUpload" style="display: none" @change="handleFileUpload">
+                            <button @click="encryptAes" v-if="selectValue == 1">加密下载</button>
+                            <button @click="decryptAes" v-else>解密</button>
+                        </div>
+                    </div>
+                    <div class="encrypt-textarea-group">
+                        <textarea v-model="result" placeholder="结果将显示在这里"></textarea>
+                    </div>
                 </div>
-
-                <!-- KEY输入 -->
-                <div class="el-input">
-                    <input class="el-input__inner" v-model="key" maxlength="16" type="text" placeholder="KEY/密码">
-                </div>
-
-                <!-- IV输入（禁用，自动生成时间戳） -->
-                <div class="el-input is-disabled">
-                    <input class="el-input__inner" v-model="iv" maxlength="13" type="text" disabled placeholder="IV/向量">
-                </div>
-
-                <!-- 按钮组 -->
-                <div class="btn-group">
-                    <!-- 上传文件 -->
-                    <div class="upload">
-  <!-- 上传按钮：绑定新的触发函数 -->
-  <button class="el-button el-button--primary" @click="triggerFileSelect()">上传文件</button>
-  <!-- 文件输入框：添加ref，删除原ID（避免DOM查找问题） -->
-  <input ref="fileInput" type="file" style="display: none;" @change="handleUpload">
-</div>
-                    <!-- 加密下载 -->
-                    <button class="el-button el-button--success" @click="handleEncryptDownload">加密下载</button>
-                </div>
-
-                <!-- 配置转图片 -->
-                <div class="iframe-group">
-                    <button class="el-button el-button--primary">
-                        <label>配置转图片
-                            <input type="file" onchange="if (!window.__cfRLUnblockHandlers) return false; toImg(event)" style="display: none;">
-                        </label>
-                    </button>
-                </div>
-            </div>
-
-            <!-- 结果文本域 -->
-            <div class="textarea-group">
-                <textarea class="el-textarea__inner" v-model="result" rows="26" placeholder="结果将显示在这里"></textarea>
             </div>
         </div>
     </div>
 
-    <script>
-        const { ref, onMounted } = Vue;
+    <!-- 底部链接 -->
 
-        // 补全为16字节（AES-128要求）
+    <script>
+        // 页面切换功能
+        function showPage(pageId) {
+            // 隐藏所有页面
+            document.querySelectorAll('.page').forEach(page => {
+                page.classList.remove('active');
+            });
+
+            // 显示选中的页面
+            document.getElementById(pageId).classList.add('active');
+        }
+
+        // Vue应用 - 加密工具
+        const { createApp, ref } = Vue;
+
         function padTo16Byte(str) {
             return CryptoJS.enc.Utf8.parse(str.toString().padEnd(16, '0'));
         }
 
-        // AES加密：返回Hex格式
         function Encrypt(word, keyStr, ivStr) {
             const key = padTo16Byte(keyStr);
             const iv = padTo16Byte(ivStr);
@@ -149,7 +290,6 @@
             return encrypted.ciphertext.toString(CryptoJS.enc.Hex);
         }
 
-        // AES解密：返回Utf8字符串
         function Decrypt(word, keyStr, ivStr) {
             const key = padTo16Byte(keyStr);
             const iv = padTo16Byte(ivStr);
@@ -158,117 +298,125 @@
             return decrypt.toString(CryptoJS.enc.Utf8);
         }
 
-        // 特定格式解密（处理前缀、后缀和时间戳）
         function decryptAesBCB(encryptedData) {
             var dataArr = encryptedData.split("");
             var prefixCode = CryptoJS.enc.Utf8.parse("$#").toString();
             var suffixCode = CryptoJS.enc.Utf8.parse("#$").toString();
-            var pwdMix = dataArr.splice(0, encryptedData.indexOf(suffixCode) + 4).join("");
+            var pwdMix = dataArr
+               .splice(0, encryptedData.indexOf(suffixCode) + 4)
+               .join("");
             var roundtimeInHax = dataArr.splice(dataArr.length - 26, 26).join("");
             var encryptedText = dataArr.join("");
-            var pwdInHax = pwdMix.substring(prefixCode.length, pwdMix.length - suffixCode.length);
-            var roundTime = CryptoJS.enc.Utf8.stringify(CryptoJS.enc.Hex.parse(roundtimeInHax));
+            var pwdInHax = pwdMix.substring(
+                prefixCode.length,
+                pwdMix.length - suffixCode.length
+            );
+            var roundTime = CryptoJS.enc.Utf8.stringify(
+                CryptoJS.enc.Hex.parse(roundtimeInHax)
+            );
             var pwd = CryptoJS.enc.Utf8.stringify(CryptoJS.enc.Hex.parse(pwdInHax));
             var iv = CryptoJS.enc.Utf8.parse(roundTime.padEnd(16, "0"));
             var pkBlocks = CryptoJS.enc.Utf8.parse(pwd.padEnd(16, "0"));
             var cipherParams = CryptoJS.lib.CipherParams.create({
-                ciphertext: CryptoJS.enc.Hex.parse(encryptedText)
+                ciphertext: CryptoJS.enc.Hex.parse(encryptedText),
             });
             var decryptedData = CryptoJS.enc.Utf8.stringify(
                 CryptoJS.AES.decrypt(cipherParams, pkBlocks, {
                     iv: iv,
                     mode: CryptoJS.mode.CBC,
-                    padding: CryptoJS.pad.Pkcs7
+                    padding: CryptoJS.pad.Pkcs7,
                 })
             );
-            console.log(decryptedData);
             return decryptedData;
         }
 
-        // 字符串转Hex
         function convertToHex(value) {
             return CryptoJS.enc.Hex.stringify(CryptoJS.enc.Utf8.parse(value));
         }
 
-        // Hex转字符串
         function convertToString(value) {
             return CryptoJS.enc.Utf8.stringify(CryptoJS.enc.Hex.parse(value));
         }
 
-        // 配置转图片（占位，需根据实际需求补充）
-        function toImg(event) {
-            console.log("配置转图片功能触发，需补充实现", event);
-            // 实际项目中需添加图片生成逻辑（如将文本转为图片）
-        }
+        createApp({
+            setup() {
+                const jsonData = ref("");
+                const key = ref("123456");
+                const iv = ref(new Date().getTime());
+                const result = ref("");
+                const selectValue = ref("1");
 
-       const { ref, onMounted } = Vue;
+                const encryptAes = async () => {
+                    if (!jsonData.value) {
+                        alert("请输入要加密的内容");
+                        return;
+                    }
 
-Vue.createApp({
-  setup() {
-    // 新增：获取文件输入框的ref（关键修复）
-    const fileInput = ref(null);
-    // 原有的响应式变量（保留）
-    const jsonData = ref("");
-    const key = ref("123456");
-    const iv = ref("");
-    const result = ref("");
-    const selectValue = ref("1");
-    const checked = ref(false);
+                    try {
+                        const resultData = Encrypt(jsonData.value, key.value, iv.value);
+                        const keyHex = convertToHex(`$#${key.value}#$`);
+                        const ivHex = convertToHex(iv.value);
+                        result.value = `${keyHex}${resultData}${ivHex}`;
+                        downloadFile(result.value);
+                    } catch (err) {
+                        console.error(err);
+                        result.value = "加密失败: " + err.message;
+                    }
+                };
 
-    // 新增：触发文件选择框（通过ref，替代原ID查找）
-    const triggerFileSelect = () => {
-      if (fileInput.value) {
-        fileInput.value.click();
-      } else {
-        alert("文件上传组件加载失败，请刷新页面");
-      }
-    };
+                const decryptAes = async () => {
+                    if (!jsonData.value) {
+                        alert("请输入要解密的内容");
+                        return;
+                    }
+                    try {
+                        const resultData = decryptAesBCB(jsonData.value);
+                        result.value = resultData;
+                    } catch (err) {
+                        console.error(err);
+                        result.value = "解密失败: " + err.message;
+                    }
+                };
 
-    // 修复后的文件上传处理函数（添加日志和错误监听）
-    const handleUpload = (event) => {
-      const file = event.target.files[0];
-      if (!file) return;
+                const handleUploadClick = () => {
+                    document.getElementById('fileUpload').click();
+                };
 
-      // 检查文件类型（仅允许文本类文件，可选限制）
-      const allowedTypes = ["text/plain", "application/json", "text/json"];
-      if (!allowedTypes.includes(file.type) && !file.name.endsWith(".txt") && !file.name.endsWith(".json")) {
-        alert("仅支持上传TXT或JSON格式的文本文件");
-        return;
-      }
+                const handleFileUpload = (event) => {
+                    const file = event.target.files[0];
+                    if (!file) return;
 
-      const reader = new FileReader();
-      reader.onload = (e) => {
-        jsonData.value = e.target.result;
-        alert(`文件上传成功！文件大小：${(file.size / 1024).toFixed(2)}KB`);
-      };
-      reader.onerror = (err) => {
-        console.error("文件读取错误：", err);
-        alert("文件读取失败，请检查文件是否损坏或尝试其他文件");
-      };
-      reader.readAsText(file);
-    };
+                    const reader = new FileReader();
+                    reader.onload = (e) => {
+                        jsonData.value = e.target.result;
+                    };
+                    reader.readAsText(file);
+                };
 
-    // 原有的其他函数（onMounted、handleEncryptDownload等，保留不变）
-    onMounted(() => {
-      iv.value = new Date().getTime().toString();
-    });
+                const downloadFile = (dataStr) => {
+                    const blob = new Blob([dataStr], { type: "text/plain" });
+                    const url = URL.createObjectURL(blob);
+                    const link = document.createElement("a");
+                    link.href = url;
+                    link.download = "file.txt";
+                    link.click();
+                    URL.revokeObjectURL(url);
+                };
 
-    // 记得在return中添加新增的变量和函数
-    return {
-      jsonData,
-      key,
-      iv,
-      result,
-      selectValue,
-      checked,
-      fileInput, // 新增：暴露ref给模板
-      triggerFileSelect, // 新增：暴露触发函数
-      handleUpload, // 修复后的上传处理函数
-      handleEncryptDownload, // 原函数保留
-      handleSelectChange // 原函数保留
-    };
-  }
-}).mount("#app");
+                return {
+                    jsonData,
+                    key,
+                    iv,
+                    result,
+                    selectValue,
+                    encryptAes,
+                    decryptAes,
+                    handleUploadClick,
+                    handleFileUpload
+                };
+            }
+        }).mount('#encrypt-page');
     </script>
 </body>
+
 </html>
