@@ -107,9 +107,11 @@
                 <div class="btn-group">
                     <!-- 上传文件 -->
                     <div class="upload">
-                        <button class="el-button el-button--primary" @click="document.getElementById('file-upload').click()">上传文件</button>
-                        <input id="file-upload" type="file" style="display: none;" @change="handleUpload">
-                    </div>
+  <!-- 上传按钮：绑定新的触发函数 -->
+  <button class="el-button el-button--primary" @click="triggerFileSelect()">上传文件</button>
+  <!-- 文件输入框：添加ref，删除原ID（避免DOM查找问题） -->
+  <input ref="fileInput" type="file" style="display: none;" @change="handleUpload">
+</div>
                     <!-- 加密下载 -->
                     <button class="el-button el-button--success" @click="handleEncryptDownload">加密下载</button>
                 </div>
