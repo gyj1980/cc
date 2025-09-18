@@ -1,0 +1,300 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TVBox的AES-128-CBC加密</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@3/dist/vue.global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/crypto-js@4.2.0/crypto-js.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+    <style>
+        .wrapper {
+            padding: 32px;
+        }
+        .wrapper .inner {
+            display: flex;
+            margin-top: 24px;
+        }
+        .wrapper .textarea-group {
+            flex: 3;
+        }
+        .wrapper .input-group {
+            flex: 1;
+            margin: 0 24px;
+        }
+        .wrapper .input-group .el-input,
+        .wrapper .input-group .el-checkbox {
+            margin-bottom: 24px;
+        }
+        .wrapper .input-group .btn-group {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 24px;
+        }
+        .wrapper .input-group .btn-group .el-button {
+            width: 80px;
+            padding: 8px 12px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            color: white;
+        }
+        .el-button--primary {
+            background-color: #409eff;
+        }
+        .el-button--success {
+            background-color: #67c23a;
+        }
+        .wrapper .input-group .btn-group .upload {
+            margin-right: 12px;
+        }
+        .el-textarea__inner {
+            width: 100%;
+            height: 400px;
+            padding: 8px;
+            border: 1px solid #dcdfe6;
+            border-radius: 4px;
+            resize: none;
+        }
+        .el-input__inner {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #dcdfe6;
+            border-radius: 4px;
+        }
+        .el-input.is-disabled .el-input__inner {
+            background-color: #f5f7fa;
+            cursor: not-allowed;
+        }
+        .el-select {
+            width: 100%;
+            margin-bottom: 24px;
+        }
+        .el-select .el-input {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="app" class="wrapper">
+        <h2>TVBox的AES-128-CBC加密</h2>
+        <div class="inner">
+            <!-- 输入文本域 -->
+            <div class="textarea-group">
+                <textarea class="el-textarea__inner" v-model="jsonData" rows="26" placeholder="请输入需要加密/解密的内容"></textarea>
+            </div>
+
+            <!-- 控制区域 -->
+            <div class="input-group">
+                <!-- 加密/解密选择 -->
+                <div class="el-select">
+                    <select class="el-input__inner" v-model="selectValue" @change="handleSelectChange">
+                        <option value="1">加密</option>
+                        <option value="0">解密</option>
+                    </select>
+                </div>
+
+                <!-- KEY输入 -->
+                <div class="el-input">
+                    <input class="el-input__inner" v-model="key" maxlength="16" type="text" placeholder="KEY/密码">
+                </div>
+
+                <!-- IV输入（禁用，自动生成时间戳） -->
+                <div class="el-input is-disabled">
+                    <input class="el-input__inner" v-model="iv" maxlength="13" type="text" disabled placeholder="IV/向量">
+                </div>
+
+                <!-- 按钮组 -->
+                <div class="btn-group">
+                    <!-- 上传文件 -->
+                    <div class="upload">
+                        <button class="el-button el-button--primary" @click="document.getElementById('file-upload').click()">上传文件</button>
+                        <input id="file-upload" type="file" style="display: none;" @change="handleUpload">
+                    </div>
+                    <!-- 加密下载 -->
+                    <button class="el-button el-button--success" @click="handleEncryptDownload">加密下载</button>
+                </div>
+
+                <!-- 配置转图片 -->
+                <div class="iframe-group">
+                    <button class="el-button el-button--primary">
+                        <label>配置转图片
+                            <input type="file" onchange="if (!window.__cfRLUnblockHandlers) return false; toImg(event)" style="display: none;">
+                        </label>
+                    </button>
+                </div>
+            </div>
+
+            <!-- 结果文本域 -->
+            <div class="textarea-group">
+                <textarea class="el-textarea__inner" v-model="result" rows="26" placeholder="结果将显示在这里"></textarea>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const { ref, onMounted } = Vue;
+
+        // 补全为16字节（AES-128要求）
+        function padTo16Byte(str) {
+            return CryptoJS.enc.Utf8.parse(str.toString().padEnd(16, '0'));
+        }
+
+        // AES加密：返回Hex格式
+        function Encrypt(word, keyStr, ivStr) {
+            const key = padTo16Byte(keyStr);
+            const iv = padTo16Byte(ivStr);
+            const encrypted = CryptoJS.AES.encrypt(word, key, { iv });
+            return encrypted.ciphertext.toString(CryptoJS.enc.Hex);
+        }
+
+        // AES解密：返回Utf8字符串
+        function Decrypt(word, keyStr, ivStr) {
+            const key = padTo16Byte(keyStr);
+            const iv = padTo16Byte(ivStr);
+            const ciphertext = CryptoJS.enc.Hex.parse(word);
+            const decrypt = CryptoJS.AES.decrypt({ ciphertext }, key, { iv });
+            return decrypt.toString(CryptoJS.enc.Utf8);
+        }
+
+        // 特定格式解密（处理前缀、后缀和时间戳）
+        function decryptAesBCB(encryptedData) {
+            var dataArr = encryptedData.split("");
+            var prefixCode = CryptoJS.enc.Utf8.parse("$#").toString();
+            var suffixCode = CryptoJS.enc.Utf8.parse("#$").toString();
+            var pwdMix = dataArr.splice(0, encryptedData.indexOf(suffixCode) + 4).join("");
+            var roundtimeInHax = dataArr.splice(dataArr.length - 26, 26).join("");
+            var encryptedText = dataArr.join("");
+            var pwdInHax = pwdMix.substring(prefixCode.length, pwdMix.length - suffixCode.length);
+            var roundTime = CryptoJS.enc.Utf8.stringify(CryptoJS.enc.Hex.parse(roundtimeInHax));
+            var pwd = CryptoJS.enc.Utf8.stringify(CryptoJS.enc.Hex.parse(pwdInHax));
+            var iv = CryptoJS.enc.Utf8.parse(roundTime.padEnd(16, "0"));
+            var pkBlocks = CryptoJS.enc.Utf8.parse(pwd.padEnd(16, "0"));
+            var cipherParams = CryptoJS.lib.CipherParams.create({
+                ciphertext: CryptoJS.enc.Hex.parse(encryptedText)
+            });
+            var decryptedData = CryptoJS.enc.Utf8.stringify(
+                CryptoJS.AES.decrypt(cipherParams, pkBlocks, {
+                    iv: iv,
+                    mode: CryptoJS.mode.CBC,
+                    padding: CryptoJS.pad.Pkcs7
+                })
+            );
+            console.log(decryptedData);
+            return decryptedData;
+        }
+
+        // 字符串转Hex
+        function convertToHex(value) {
+            return CryptoJS.enc.Hex.stringify(CryptoJS.enc.Utf8.parse(value));
+        }
+
+        // Hex转字符串
+        function convertToString(value) {
+            return CryptoJS.enc.Utf8.stringify(CryptoJS.enc.Hex.parse(value));
+        }
+
+        // 配置转图片（占位，需根据实际需求补充）
+        function toImg(event) {
+            console.log("配置转图片功能触发，需补充实现", event);
+            // 实际项目中需添加图片生成逻辑（如将文本转为图片）
+        }
+
+        Vue.createApp({
+            setup() {
+                const jsonData = ref(""); // 输入内容
+                const key = ref("123456"); // 默认KEY
+                const iv = ref(""); // IV（自动生成时间戳）
+                const result = ref(""); // 结果
+                const selectValue = ref("1"); // 1=加密，0=解密
+                const checked = ref(false); // 复选框状态（文档中未明确用途，预留）
+
+                // 初始化IV（当前时间戳）
+                onMounted(() => {
+                    iv.value = new Date().getTime().toString();
+                });
+
+                // 处理文件上传
+                const handleUpload = (event) => {
+                    const file = event.target.files[0];
+                    if (!file) return;
+
+                    const reader = new FileReader();
+                    reader.onload = (e) => {
+                        jsonData.value = e.target.result;
+                    };
+                    reader.readAsText(file);
+                };
+
+                // 加密并下载
+                const handleEncryptDownload = () => {
+                    if (!jsonData.value) {
+                        alert("请输入需要加密的内容");
+                        return;
+                    }
+
+                    try {
+                        // 执行加密
+                        const encryptedResult = Encrypt(jsonData.value, key.value, iv.value);
+                        // 拼接KEY的Hex前缀和IV的Hex后缀（与文档逻辑一致）
+                        const keyHex = convertToHex(`$#${key.value}#$`);
+                        const ivHex = convertToHex(iv.value);
+                        const finalResult = `${keyHex}${encryptedResult}${ivHex}`;
+                        
+                        result.value = finalResult;
+                        // 下载文件
+                        downloadFile(finalResult, "file.json");
+                    } catch (err) {
+                        console.error("加密失败", err);
+                        alert("加密失败，请检查输入内容");
+                    }
+                };
+
+                // 处理加密/解密切换
+                const handleSelectChange = () => {
+                    if (selectValue.value === "0") {
+                        // 切换到解密模式，执行解密
+                        if (!jsonData.value) {
+                            alert("请输入需要解密的内容");
+                            return;
+                        }
+
+                        try {
+                            const decryptedResult = decryptAesBCB(jsonData.value);
+                            result.value = decryptedResult;
+                        } catch (err) {
+                            console.error("解密失败", err);
+                            alert("解密失败，请检查输入内容和KEY");
+                        }
+                    } else {
+                        // 切换到加密模式，清空结果
+                        result.value = "";
+                    }
+                };
+
+                // 下载文件
+                const downloadFile = (dataStr, fileName) => {
+                    const blob = new Blob([dataStr], { type: "text/plain" });
+                    const url = URL.createObjectURL(blob);
+                    const link = document.createElement("a");
+                    link.href = url;
+                    link.download = fileName;
+                    link.click();
+                    URL.revokeObjectURL(url);
+                };
+
+                return {
+                    jsonData,
+                    key,
+                    iv,
+                    result,
+                    selectValue,
+                    checked,
+                    handleUpload,
+                    handleEncryptDownload,
+                    handleSelectChange
+                };
+            }
+        }).mount("#app");
+    </script>
+</body>
+</html>
