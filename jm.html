@@ -2,14 +2,34 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<!-- 新增：手机端视口适配（关键） -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>加密解密</title>
 <link rel="stylesheet" href="https://unpkg.com/element-plus/dist/index.css"/>
 <style>
-    .wrapper{padding:32px}.wrapper .inner{display:flex;margin-top:24px}.wrapper .textarea-group{flex:3}.wrapper .input-group{flex:1;margin:0 24px}.wrapper .input-group .el-input,.wrapper .input-group .el-checkbox{margin-bottom:24px}.wrapper .input-group .btn-group{display:flex;justify-content:space-between;margin-bottom:24px}.wrapper .input-group .btn-group .el-button{width:80px}.wrapper .input-group .btn-group .upload{margin-right:12px}
-    /* 1. 复选框文字设为蓝色 */
+    .wrapper{padding:32px; box-sizing: border-box;} /* 新增box-sizing：防止padding撑大容器 */
+    .wrapper .inner{display:flex; margin-top:24px;}
+    .wrapper .textarea-group{flex:3; margin-right: 16px;} /* 微调间距，移动端会覆盖 */
+    .wrapper .input-group{flex:1; margin:0 24px;}
+    .wrapper .input-group .el-input,
+    .wrapper .input-group .el-checkbox{margin-bottom:24px;}
+    .wrapper .input-group .btn-group{display:flex; justify-content:space-between; margin-bottom:24px;}
+    .wrapper .input-group .btn-group .el-button{width:80px;}
+    .wrapper .input-group .btn-group .upload{margin-right:12px;}
+
+    /* 核心：手机屏幕适配（768px以下设备生效） */
+    @media (max-width: 768px) {
+        .wrapper{padding:16px;} /* 减小手机端内边距 */
+        .wrapper .inner{flex-direction: column;} /* 横向布局变纵向，避免挤压 */
+        .wrapper .textarea-group{flex: none; width: 100%; margin-right: 0; margin-bottom: 16px;} /* 文本域占满宽度，加底部间距 */
+        .wrapper .input-group{flex: none; width: 100%; margin: 0 0 16px 0;} /* 控制区占满宽度，取消左右间距 */
+        .wrapper .input-group .btn-group{flex-direction: column; gap: 8px;} /* 按钮横向变纵向，加间距 */
+        .wrapper .input-group .btn-group .el-button{width: 100%;} /* 按钮占满宽度，方便点击 */
+        .el-textarea__inner{min-height: 120px !important;} /* 调小手机端文本域高度，避免滚动过多 */
+    }
+
+    /* 原有样式保留：复选框文字蓝色 */
     .base64-check-label { color: #1E90FF; }
-    /* 2. 解密模式下的按钮背景设为橙色（覆盖原success绿色） */
-    .decrypt-btn { background-color: #FF7F50 !important; border-color: #FF7F50 !important; }
 </style>
 </head>
 <body>
@@ -25,7 +45,7 @@
           <el-option label="加密" :value="1"></el-option>
           <el-option label="解密" :value="0"></el-option>
         </el-select>
-        <!-- 给复选框文字加蓝色样式类 -->
+        <!-- 原有：解密模式显示复选框 + 蓝色文字 -->
         <el-checkbox v-if="selectValue===0" v-model="checked" class="base64-check-label">是否Base64加密过</el-checkbox>
         <el-input v-model="key" maxlength="16" placeholder="KEY/密码"></el-input>
         <el-input v-model="iv" disabled placeholder="IV/向量"></el-input>
@@ -33,9 +53,8 @@
           <el-upload class="upload" :before-upload="handleUpload" accept=".txt,.json" :show-file-list="false">
             <el-button type="primary">上传文件</el-button>
           </el-upload>
-          <!-- 解密模式时加橙色背景类，加密模式保持原success样式 -->
+          <!-- 原有：功能按钮（还原原版样式） -->
           <el-button 
-            :class="selectValue===0 ? 'decrypt-btn' : ''" 
             type="success" 
             @click="selectValue===1?encryptAes():decryptAes()"
           >
@@ -111,7 +130,7 @@
       const selectValue = ref(1);
       const checked = ref(false);
 
-      // 所有函数逻辑完全保留原样，未修改
+      // 所有核心功能逻辑：完全保留原版，未做任何修改
       const encryptAes = async () => {
         if (!jsonData.value) return;
         try {
