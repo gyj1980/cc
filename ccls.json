@@ -1,6 +1,6 @@
 //gyj1980.de5.net
 {
-"spider": "https://pro.gyjune.dpdns.org/https://raw.githubusercontent.com/gyjune/cc/main/Yoursmile.jar;md5;c6aaf6a9498e1e1d07126779c687bdd8",
+"spider": "https://pro.gyjune.dpdns.org/https://raw.githubusercontent.com/gyj1980/cc/main/Yoursmile.jar;md5;c6aaf6a9498e1e1d07126779c687bdd8",
 "wallpaper": "http://我不是.肥猫.love:63/ppic/feimao.php",
 "warningText": "潺潺流水接口完全免费，切勿付费购买！",
 "lives":[{"url":"https://8177.kstore.space/tvb/jstv.json","epg":"https://8177.kstore.space/all.xml","logo":"https://live.fanmingming.cn/tv/{name}.png","type": 0,"name":"官网直播"},{"url":"http://aktv.space/live.m3u","epg":"https://8177.kstore.space/all.xml","logo":"https://live.fanmingming.cn/tv/{name}.png","type": 0,"name":"AKTV"}
